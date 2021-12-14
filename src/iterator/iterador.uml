@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_jyHysORSEeuh0NLm_Ji1gA" name="iterador">
+    <eAnnotations xmi:id="_j8gdwORSEeuh0NLm_Ji1gA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_j8gdweRSEeuh0NLm_Ji1gA" source="codegen">
+        <details xmi:id="_j8gdwuRSEeuh0NLm_Ji1gA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_kHeXoORSEeuh0NLm_Ji1gA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/iterator/Lista.java;2079262433/1;/PatronesComportamentales/src/iterator/ListaSimple.java;2936164719/1;/PatronesComportamentales/src/iterator/Main.java;2147537839/1;/PatronesComportamentales/src/iterator/ReverseIterator.java;1586924550/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_kDhrwORSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_kDhrweRSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_kDiS0ORSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_kDiS0eRSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_kDiS0uRSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_kDiS0-RSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_kDiS1ORSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_kDi54ORSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_kDi54eRSEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_kDkIAORSEeuh0NLm_Ji1gA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_kDkIAeRSEeuh0NLm_Ji1gA" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_kEriUORSEeuh0NLm_Ji1gA" name="Iterator"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kEswcORSEeuh0NLm_Ji1gA" name="LinkedList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_kEyQAORSEeuh0NLm_Ji1gA" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_kEyQAeRSEeuh0NLm_Ji1gA" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_kDoZcORSEeuh0NLm_Ji1gA" name="iterator">
+      <packagedElement xmi:type="uml:Class" xmi:id="_kD77cORSEeuh0NLm_Ji1gA" name="Lista">
+        <ownedAttribute xmi:id="_kE4WoORSEeuh0NLm_Ji1gA" name="lista" visibility="package" type="_kEswcORSEeuh0NLm_Ji1gA" association="_kE-dQORSEeuh0NLm_Ji1gA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_kE4WoeRSEeuh0NLm_Ji1gA" value="new LinkedList()"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_kEtXgeRSEeuh0NLm_Ji1gA" client="_kD77cORSEeuh0NLm_Ji1gA" supplier="_kED3QORSEeuh0NLm_Ji1gA" contract="_kED3QORSEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE6y4ORSEeuh0NLm_Ji1gA" name="count" specification="_kD9JkORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE6y4eRSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return lista.size();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE7Z8ORSEeuh0NLm_Ji1gA" name="append" specification="_kEy3EeRSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE7Z8eRSEeuh0NLm_Ji1gA" name="o" type="_kEyQAeRSEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_kE7Z8uRSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>lista.addLast(o);&#xD;
+     return true;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE8BAORSEeuh0NLm_Ji1gA" name="remove" specification="_kEzeIuRSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE8BAeRSEeuh0NLm_Ji1gA" name="o" type="_kEyQAeRSEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_kE8BAuRSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return lista.remove(o);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE8BA-RSEeuh0NLm_Ji1gA" name="get" specification="_kD_l0ORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE8BBORSEeuh0NLm_Ji1gA" name="index">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_kE8BBeRSEeuh0NLm_Ji1gA" type="_kEyQAeRSEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return lista.get(index);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE8BBuRSEeuh0NLm_Ji1gA" name="createReverseIterator" specification="_kEBbAORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE8BB-RSEeuh0NLm_Ji1gA" type="_kEriUORSEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return new ReverseIterator(this);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_kD9JkORSEeuh0NLm_Ji1gA" name="count" method="_kE6y4ORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kD9woORSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kD_l0ORSEeuh0NLm_Ji1gA" name="get" method="_kE8BA-RSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kD_l0eRSEeuh0NLm_Ji1gA" name="index">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_kE1TUORSEeuh0NLm_Ji1gA" type="_kEyQAeRSEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kEBbAORSEeuh0NLm_Ji1gA" name="createReverseIterator" method="_kE8BBuRSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE1TUeRSEeuh0NLm_Ji1gA" type="_kEriUORSEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kEy3EeRSEeuh0NLm_Ji1gA" name="append" method="_kE7Z8ORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kEy3EuRSEeuh0NLm_Ji1gA" name="o" type="_kEyQAeRSEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_kEy3E-RSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kEzeIuRSEeuh0NLm_Ji1gA" name="remove" method="_kE8BAORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kEzeI-RSEeuh0NLm_Ji1gA" name="o" type="_kEyQAeRSEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_kE0FMORSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_kED3QORSEeuh0NLm_Ji1gA" name="ListaSimple">
+        <ownedOperation xmi:id="_kEEeUORSEeuh0NLm_Ji1gA" name="count">
+          <ownedParameter xmi:id="_kEFFYORSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kEFscORSEeuh0NLm_Ji1gA" name="get">
+          <ownedParameter xmi:id="_kEFsceRSEeuh0NLm_Ji1gA" name="index">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_kE3IgORSEeuh0NLm_Ji1gA" type="_kEyQAeRSEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kE16YORSEeuh0NLm_Ji1gA" name="append">
+          <ownedParameter xmi:id="_kE16YeRSEeuh0NLm_Ji1gA" name="o" type="_kEyQAeRSEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_kE16YuRSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kE2hcORSEeuh0NLm_Ji1gA" name="remove">
+          <ownedParameter xmi:id="_kE2hceRSEeuh0NLm_Ji1gA" name="o" type="_kEyQAeRSEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_kE2hcuRSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_kEG6kORSEeuh0NLm_Ji1gA" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE8oEORSEeuh0NLm_Ji1gA" name="main" specification="_kEHhoORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE8oEeRSEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kE8oEuRSEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Lista lista = new Lista();&#xD;
+     lista.append(1);&#xD;
+     lista.append(2);&#xD;
+     lista.append(3);&#xD;
+     lista.append(4);&#xD;
+     lista.append(5);&#xD;
+&#xD;
+     System.out.println(&quot;Lista creada, contiene los elementos: 1, 2, 3, 4, 5.&quot;);&#xD;
+     Iterator iter = lista.createReverseIterator();&#xD;
+     System.out.println(&quot;Los elementos en orden inverso son:&quot;);&#xD;
+     while (iter.hasNext()) {&#xD;
+         System.out.println(iter.next());&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_kEHhoORSEeuh0NLm_Ji1gA" name="main" isStatic="true" method="_kE8oEORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kEHhoeRSEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kEIIsORSEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_kEIvwORSEeuh0NLm_Ji1gA" name="ReverseIterator">
+        <ownedAttribute xmi:id="_kE5kwORSEeuh0NLm_Ji1gA" name="actual" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_kE6L0ORSEeuh0NLm_Ji1gA" name="lista" visibility="protected" type="_kED3QORSEeuh0NLm_Ji1gA" association="_kE_EUeRSEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_kE3IgeRSEeuh0NLm_Ji1gA" client="_kEIvwORSEeuh0NLm_Ji1gA" supplier="_kEriUORSEeuh0NLm_Ji1gA" contract="_kEriUORSEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE8oE-RSEeuh0NLm_Ji1gA" name="hasNext" specification="_kEJW0ORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE8oFORSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return (actual > 0);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE8oFeRSEeuh0NLm_Ji1gA" name="remove" specification="_kELMAORSEeuh0NLm_Ji1gA">
+          <language>java</language>
+          <body>throw new UnsupportedOperationException(&quot;remove()&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE8oFuRSEeuh0NLm_Ji1gA" name="next" specification="_kEMaIuRSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE8oF-RSEeuh0NLm_Ji1gA" type="_kEyQAeRSEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>if (!hasNext()) {&#xD;
+         throw new ArrayIndexOutOfBoundsException(&quot;Iterator fuera del limite&quot;);&#xD;
+     } else {&#xD;
+         return lista.get(--actual);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_kE9PIORSEeuh0NLm_Ji1gA" name="ReverseIterator" specification="_kEvzwORSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE9PIeRSEeuh0NLm_Ji1gA" name="lista" type="_kED3QORSEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_kE9PIuRSEeuh0NLm_Ji1gA" type="_kEIvwORSEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+     this.lista = lista;&#xD;
+     actual = lista.count();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_kEJW0ORSEeuh0NLm_Ji1gA" name="hasNext" method="_kE8oE-RSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kEJ94ORSEeuh0NLm_Ji1gA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kELMAORSEeuh0NLm_Ji1gA" name="remove" method="_kE8oFeRSEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_kEMaIuRSEeuh0NLm_Ji1gA" name="next" method="_kE8oFuRSEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_kE3vkORSEeuh0NLm_Ji1gA" type="_kEyQAeRSEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_kEvzwORSEeuh0NLm_Ji1gA" name="ReverseIterator" method="_kE9PIORSEeuh0NLm_Ji1gA">
+          <eAnnotations xmi:id="_kEvzwuRSEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_kEvzw-RSEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_kEvzweRSEeuh0NLm_Ji1gA" name="lista" type="_kED3QORSEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_kEwa0ORSEeuh0NLm_Ji1gA" type="_kEIvwORSEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_kE-dQORSEeuh0NLm_Ji1gA" name="" memberEnd="_kE-dQeRSEeuh0NLm_Ji1gA _kE4WoORSEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_kE-dQeRSEeuh0NLm_Ji1gA" name="" type="_kD77cORSEeuh0NLm_Ji1gA" association="_kE-dQORSEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_kE_EUeRSEeuh0NLm_Ji1gA" name="" memberEnd="_kE_EUuRSEeuh0NLm_Ji1gA _kE6L0ORSEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_kE_EUuRSEeuh0NLm_Ji1gA" name="" type="_kEIvwORSEeuh0NLm_Ji1gA" association="_kE_EUeRSEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_j90FUORSEeuh0NLm_Ji1gA">
+      <eAnnotations xmi:id="_j90FUeRSEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_j90sYORSEeuh0NLm_Ji1gA" base_Package="_jyHysORSEeuh0NLm_Ji1gA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kD-XsORSEeuh0NLm_Ji1gA" base_Element="_kD9JkORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_kD-XseRSEeuh0NLm_Ji1gA" base_Element="_kD9JkORSEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_kD--wORSEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kEAM4ORSEeuh0NLm_Ji1gA" base_Element="_kD_l0ORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_kEAz8ORSEeuh0NLm_Ji1gA" base_Element="_kD_l0ORSEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_kEAz8eRSEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kEKk8ORSEeuh0NLm_Ji1gA" base_Element="_kEJW0ORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_kEKk8eRSEeuh0NLm_Ji1gA" base_Element="_kEJW0ORSEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_kEKk8uRSEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kELMAeRSEeuh0NLm_Ji1gA" base_Element="_kELMAORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_kEMaIORSEeuh0NLm_Ji1gA" base_Element="_kELMAORSEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_kEMaIeRSEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kENBMORSEeuh0NLm_Ji1gA" base_Element="_kEMaIuRSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_kENoQORSEeuh0NLm_Ji1gA" base_Element="_kEMaIuRSEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_kENoQeRSEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_kEsJYORSEeuh0NLm_Ji1gA" base_Element="_kEriUORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_kEtXgORSEeuh0NLm_Ji1gA" base_Element="_kEswcORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_kEy3EORSEeuh0NLm_Ji1gA" base_Element="_kEyQAeRSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kEy3FORSEeuh0NLm_Ji1gA" base_Element="_kEy3EeRSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_kEzeIORSEeuh0NLm_Ji1gA" base_Element="_kEy3EeRSEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_kEzeIeRSEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kE0sQORSEeuh0NLm_Ji1gA" base_Element="_kEzeIuRSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_kE0sQeRSEeuh0NLm_Ji1gA" base_Element="_kEzeIuRSEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_kE0sQuRSEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kE49sORSEeuh0NLm_Ji1gA" base_Element="_kE4WoORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kE5kweRSEeuh0NLm_Ji1gA" base_Element="_kE5kwORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_kE6L0eRSEeuh0NLm_Ji1gA" base_Element="_kE6L0ORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_kE_EUORSEeuh0NLm_Ji1gA" base_Element="_kE-dQORSEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_kE_rYORSEeuh0NLm_Ji1gA" base_Element="_kE_EUeRSEeuh0NLm_Ji1gA"/>
+</xmi:XMI>

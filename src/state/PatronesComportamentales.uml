@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_h7beIOUTEeu518O4MRMQJA" name="PatronesComportamentales">
+    <eAnnotations xmi:id="_iHlDwOUTEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_iHlDweUTEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_iHlDwuUTEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_iUZXwOUTEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/state/Activa.java;4157122325/1;/PatronesComportamentales/src/state/Alarma.java;1460011318/1;/PatronesComportamentales/src/state/Estado.java;2031200337/1;/PatronesComportamentales/src/state/Manteniemiento.java;366035746/1;/PatronesComportamentales/src/state/PruebaState.java;1209541388/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_iQzRMOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_iQzRMeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_iQzRMuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_iQzRM-UTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_iQzRNOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_iQz4QOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_iQz4QeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_iQz4QuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_iQ0fUOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iQ1tcOUTEeu518O4MRMQJA" name="state">
+      <packagedElement xmi:type="uml:Class" xmi:id="_iRBToOUTEeu518O4MRMQJA" name="Activa">
+        <ownedComment xmi:id="_iR8gsOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_iRzWwOUTEeu518O4MRMQJA" client="_iRBToOUTEeu518O4MRMQJA" supplier="_iRGMIOUTEeu518O4MRMQJA" contract="_iRGMIOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_iR42UOUTEeu518O4MRMQJA" name="ejecutarAccion" specification="_iRChwOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Estado Activo: Atento&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_iRChwOUTEeu518O4MRMQJA" name="ejecutarAccion" method="_iR42UOUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iREW8OUTEeu518O4MRMQJA" name="Alarma">
+        <ownedComment xmi:id="_iR8gseUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_iR3oMOUTEeu518O4MRMQJA" name="miEstado" visibility="private" type="_iRGMIOUTEeu518O4MRMQJA" association="_iR-V4OUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_iR5dYOUTEeu518O4MRMQJA" name="setEstado" specification="_iR0k4OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_iR5dYeUTEeu518O4MRMQJA" name="e" type="_iRGMIOUTEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>miEstado=e;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_iR6EcOUTEeu518O4MRMQJA" name="ejecutarAccion" specification="_iRFlEOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>miEstado.ejecutarAccion();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_iRFlEOUTEeu518O4MRMQJA" name="ejecutarAccion" method="_iR6EcOUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_iR0k4OUTEeu518O4MRMQJA" name="setEstado" method="_iR5dYOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_iR0k4eUTEeu518O4MRMQJA" name="e" type="_iRGMIOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_iRGMIOUTEeu518O4MRMQJA" name="Estado">
+        <ownedComment xmi:id="_iR8gsuUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_iRHaQOUTEeu518O4MRMQJA" name="ejecutarAccion"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iRIBUOUTEeu518O4MRMQJA" name="Manteniemiento">
+        <ownedComment xmi:id="_iR8gs-UTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_iR1L8OUTEeu518O4MRMQJA" client="_iRIBUOUTEeu518O4MRMQJA" supplier="_iRGMIOUTEeu518O4MRMQJA" contract="_iRGMIOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_iR7SkOUTEeu518O4MRMQJA" name="ejecutarAccion" specification="_iRIoYOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Estado en mantenimiento: No Atento&quot;);&#xD;
+     System.out.println(&quot;enviar correo para informar el estado&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_iRIoYOUTEeu518O4MRMQJA" name="ejecutarAccion" method="_iR7SkOUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iRMSwOUTEeu518O4MRMQJA" name="PruebaState">
+        <ownedComment xmi:id="_iR9HwOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_iR7SkeUTEeu518O4MRMQJA" name="muestraMenu" specification="_iRNg4OUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>StringBuffer menu = new StringBuffer();&#xD;
+     menu.append(&quot;---------------------------------\n&quot;);&#xD;
+     menu.append(&quot;SELECCIONE EL ESTADO DE LA ALARMA\n&quot;);&#xD;
+     menu.append(&quot;1. Activa 2.Mantenimiento 0.Salir\n&quot;);&#xD;
+     menu.append(&quot;---------------------------------\n&quot;);&#xD;
+     System.out.println(menu.toString());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_iR75oOUTEeu518O4MRMQJA" name="main" specification="_iROH8OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_iR75oeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iR75ouUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Alarma alarma = new Alarma();&#xD;
+     Activa activa = new Activa();&#xD;
+     Manteniemiento mantenimiento = new Manteniemiento();&#xD;
+     int opcion;&#xD;
+     Scanner entradaDatos = new Scanner(System.in);&#xD;
+     do{&#xD;
+         muestraMenu();&#xD;
+         opcion=entradaDatos.nextInt();&#xD;
+         switch(opcion){&#xD;
+             case 1: alarma.setEstado(activa);&#xD;
+                     break;&#xD;
+             case 2: alarma.setEstado(mantenimiento);&#xD;
+                     break;&#xD;
+             case 0: System.exit(0);&#xD;
+             default: System.out.println(&quot;Error. opciÃ³n no vÃ¡lida&quot;);&#xD;
+                      break;&#xD;
+         }&#xD;
+         alarma.ejecutarAccion();&#xD;
+     }while(opcion != 0);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_iRNg4OUTEeu518O4MRMQJA" name="muestraMenu" isStatic="true" method="_iR7SkeUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_iROH8OUTEeu518O4MRMQJA" name="main" isStatic="true" method="_iR75oOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_iROH8eUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iROvAOUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_iR-V4OUTEeu518O4MRMQJA" name="" memberEnd="_iR-V4eUTEeu518O4MRMQJA _iR3oMOUTEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_iR-V4eUTEeu518O4MRMQJA" name="" type="_iREW8OUTEeu518O4MRMQJA" association="_iR-V4OUTEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iQ7NAOUTEeu518O4MRMQJA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_iQ70EOUTEeu518O4MRMQJA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_iR1zAOUTEeu518O4MRMQJA" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_iLhvoOUTEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_iLhvoeUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_iLiWsOUTEeu518O4MRMQJA" base_Package="_h7beIOUTEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iRDI0OUTEeu518O4MRMQJA" base_Element="_iRChwOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_iRDv4OUTEeu518O4MRMQJA" base_Element="_iRChwOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_iRDv4eUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iRJ2gOUTEeu518O4MRMQJA" base_Element="_iRIoYOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_iRLEoOUTEeu518O4MRMQJA" base_Element="_iRIoYOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_iRLEoeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_iR3BIOUTEeu518O4MRMQJA" base_Element="_iR1zAOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_iR4PQOUTEeu518O4MRMQJA" base_Element="_iR3oMOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_iR_kAOUTEeu518O4MRMQJA" base_Element="_iR-V4OUTEeu518O4MRMQJA"/>
+</xmi:XMI>

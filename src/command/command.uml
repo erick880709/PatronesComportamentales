@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_YpFs8ORLEeuh0NLm_Ji1gA" name="command">
+    <eAnnotations xmi:id="_YyPB4ORLEeuh0NLm_Ji1gA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_YyPB4eRLEeuh0NLm_Ji1gA" source="codegen">
+        <details xmi:id="_YyPB4uRLEeuh0NLm_Ji1gA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_Y9G1IORLEeuh0NLm_Ji1gA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/command/ComandoMoverAbajo.java;2122391496/1;/PatronesComportamentales/src/command/ComandoMoverArriba.java;3247026252/1;/PatronesComportamentales/src/command/Command.java;3546201365/1;/PatronesComportamentales/src/command/LuzReceiver.java;802355468/1;/PatronesComportamentales/src/command/Main.java;98844631/1;/PatronesComportamentales/src/command/SwicheInvoker.java;604945212/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Y4OVIORLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Y4OVIeRLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_Y4O8MORLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_Y4O8MeRLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_Y4O8MuRLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_Y4O8M-RLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_Y4PjQORLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_Y4PjQeRLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Y4QxYORLEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Y4T0sORLEeuh0NLm_Ji1gA" name="command">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y4yV0ORLEeuh0NLm_Ji1gA" name="ComandoMoverAbajo">
+        <ownedComment xmi:id="_Y6IZoORLEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_Y5-BkORLEeuh0NLm_Ji1gA" name="luz" visibility="private" type="_Y4_xMORLEeuh0NLm_Ji1gA" association="_Y6MrEORLEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_Y51esORLEeuh0NLm_Ji1gA" client="_Y4yV0ORLEeuh0NLm_Ji1gA" supplier="_Y498AORLEeuh0NLm_Ji1gA" contract="_Y498AORLEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6DhIORLEeuh0NLm_Ji1gA" name="ComandoMoverAbajo" specification="_Y52FwORLEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_Y6DhIeRLEeuh0NLm_Ji1gA" name="luz" type="_Y4_xMORLEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_Y6DhIuRLEeuh0NLm_Ji1gA" type="_Y4yV0ORLEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>this.luz = luz;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6EIMORLEeuh0NLm_Ji1gA" name="execute" specification="_Y40yEORLEeuh0NLm_Ji1gA">
+          <language>java</language>
+          <body>luz.apagar();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Y40yEORLEeuh0NLm_Ji1gA" name="execute" method="_Y6EIMORLEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_Y52FwORLEeuh0NLm_Ji1gA" name="ComandoMoverAbajo" method="_Y6DhIORLEeuh0NLm_Ji1gA">
+          <eAnnotations xmi:id="_Y52s0eRLEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Y52s0uRLEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Y52s0ORLEeuh0NLm_Ji1gA" name="luz" type="_Y4_xMORLEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_Y52s0-RLEeuh0NLm_Ji1gA" type="_Y4yV0ORLEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y44ccORLEeuh0NLm_Ji1gA" name="ComandoMoverArriba">
+        <ownedComment xmi:id="_Y6JnwORLEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_Y5_2wORLEeuh0NLm_Ji1gA" name="luz" visibility="private" type="_Y4_xMORLEeuh0NLm_Ji1gA" association="_Y6PHUORLEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_Y5368ORLEeuh0NLm_Ji1gA" client="_Y44ccORLEeuh0NLm_Ji1gA" supplier="_Y498AORLEeuh0NLm_Ji1gA" contract="_Y498AORLEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6EvQORLEeuh0NLm_Ji1gA" name="ComandoMoverArriba" specification="_Y54iAORLEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_Y6EvQeRLEeuh0NLm_Ji1gA" name="luz" type="_Y4_xMORLEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_Y6EvQuRLEeuh0NLm_Ji1gA" type="_Y44ccORLEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>this.luz = luz;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6EvQ-RLEeuh0NLm_Ji1gA" name="execute" specification="_Y46RoORLEeuh0NLm_Ji1gA">
+          <language>java</language>
+          <body>luz.encender();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Y46RoORLEeuh0NLm_Ji1gA" name="execute" method="_Y6EvQ-RLEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_Y54iAORLEeuh0NLm_Ji1gA" name="ComandoMoverArriba" method="_Y6EvQORLEeuh0NLm_Ji1gA">
+          <eAnnotations xmi:id="_Y54iAuRLEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Y54iA-RLEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Y54iAeRLEeuh0NLm_Ji1gA" name="luz" type="_Y4_xMORLEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_Y54iBORLEeuh0NLm_Ji1gA" type="_Y44ccORLEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Y498AORLEeuh0NLm_Ji1gA" name="Command">
+        <ownedComment xmi:id="_Y6JnweRLEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_Y4_KIORLEeuh0NLm_Ji1gA" name="execute"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y4_xMORLEeuh0NLm_Ji1gA" name="LuzReceiver">
+        <ownedComment xmi:id="_Y6JnwuRLEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6FWUORLEeuh0NLm_Ji1gA" name="encender" specification="_Y5BmYuRLEeuh0NLm_Ji1gA">
+          <language>java</language>
+          <body>System.out.println(&quot;Luz encendida&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6FWUeRLEeuh0NLm_Ji1gA" name="apagar" specification="_Y5CNcORLEeuh0NLm_Ji1gA">
+          <language>java</language>
+          <body>System.out.println(&quot;Luz apagada&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Y5AYQORLEeuh0NLm_Ji1gA" name="LuzReceiver">
+          <eAnnotations xmi:id="_Y5A_UORLEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Y5A_UeRLEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Y5BmYeRLEeuh0NLm_Ji1gA" type="_Y4_xMORLEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Y5BmYuRLEeuh0NLm_Ji1gA" name="encender" method="_Y6FWUORLEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_Y5CNcORLEeuh0NLm_Ji1gA" name="apagar" method="_Y6FWUeRLEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y5C0gORLEeuh0NLm_Ji1gA" name="Main">
+        <ownedComment xmi:id="_Y6Jnw-RLEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6F9YORLEeuh0NLm_Ji1gA" name="main" specification="_Y5ECoORLEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_Y6F9YeRLEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y6F9YuRLEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>LuzReceiver luz =new LuzReceiver();&#xD;
+     Command swicheArriba = new ComandoMoverArriba(luz);&#xD;
+     Command swicheAbajo = new ComandoMoverAbajo(luz);&#xD;
+     SwicheInvoker swiche = new SwicheInvoker(swicheArriba, swicheAbajo);&#xD;
+     Scanner e = new Scanner(System.in);&#xD;
+     int op=0;&#xD;
+     while(op!=3){&#xD;
+         System.out.println(&quot;Operaciones sobre la luz:&quot;);&#xD;
+         System.out.println(&quot;1.Encender&quot;);&#xD;
+         System.out.println(&quot;2.Apagar&quot;);&#xD;
+         System.out.println(&quot;3.Salir&quot;);&#xD;
+         op=e.nextInt();&#xD;
+         switch(op){&#xD;
+             case 1: swiche.moverArriba(); break;&#xD;
+             case 2: swiche.moverAbajo(); break;&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Y5ECoORLEeuh0NLm_Ji1gA" name="main" isStatic="true" method="_Y6F9YORLEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_Y5ECoeRLEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y5FQwORLEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Y5Ge4ORLEeuh0NLm_Ji1gA" name="SwicheInvoker">
+        <ownedComment xmi:id="_Y6KO0ORLEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_Y6BE4ORLEeuh0NLm_Ji1gA" name="comandoMoverArriba" visibility="private" type="_Y498AORLEeuh0NLm_Ji1gA" association="_Y6QVcORLEeuh0NLm_Ji1gA"/>
+        <ownedAttribute xmi:id="_Y6CTAORLEeuh0NLm_Ji1gA" name="comandoMoverAbajo" visibility="private" type="_Y498AORLEeuh0NLm_Ji1gA" association="_Y6Q8geRLEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6GkcORLEeuh0NLm_Ji1gA" name="SwicheInvoker" specification="_Y57lUORLEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_Y6GkceRLEeuh0NLm_Ji1gA" name="comandoMoverArriba" type="_Y498AORLEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_Y6GkcuRLEeuh0NLm_Ji1gA" name="comandoMoverAbajo" type="_Y498AORLEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_Y6Gkc-RLEeuh0NLm_Ji1gA" type="_Y5Ge4ORLEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>this.comandoMoverArriba = comandoMoverArriba;&#xD;
+     this.comandoMoverAbajo = comandoMoverAbajo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6GkdORLEeuh0NLm_Ji1gA" name="moverArriba" specification="_Y5I7IORLEeuh0NLm_Ji1gA">
+          <language>java</language>
+          <body>comandoMoverArriba.execute();&#xD;
+</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Y6HLgORLEeuh0NLm_Ji1gA" name="moverAbajo" specification="_Y5JiMORLEeuh0NLm_Ji1gA">
+          <language>java</language>
+          <body>comandoMoverAbajo.execute();&#xD;
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Y5I7IORLEeuh0NLm_Ji1gA" name="moverArriba" method="_Y6GkdORLEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_Y5JiMORLEeuh0NLm_Ji1gA" name="moverAbajo" method="_Y6HLgORLEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_Y57lUORLEeuh0NLm_Ji1gA" name="SwicheInvoker" method="_Y6GkcORLEeuh0NLm_Ji1gA">
+          <eAnnotations xmi:id="_Y58MYORLEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Y58MYeRLEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_Y57lUeRLEeuh0NLm_Ji1gA" name="comandoMoverArriba" type="_Y498AORLEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_Y57lUuRLEeuh0NLm_Ji1gA" name="comandoMoverAbajo" type="_Y498AORLEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_Y58MYuRLEeuh0NLm_Ji1gA" type="_Y5Ge4ORLEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Y6MrEORLEeuh0NLm_Ji1gA" name="" memberEnd="_Y6MrEeRLEeuh0NLm_Ji1gA _Y5-BkORLEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_Y6MrEeRLEeuh0NLm_Ji1gA" name="" type="_Y4yV0ORLEeuh0NLm_Ji1gA" association="_Y6MrEORLEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Y6PHUORLEeuh0NLm_Ji1gA" name="" memberEnd="_Y6PHUeRLEeuh0NLm_Ji1gA _Y5_2wORLEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_Y6PHUeRLEeuh0NLm_Ji1gA" name="" type="_Y44ccORLEeuh0NLm_Ji1gA" association="_Y6PHUORLEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Y6QVcORLEeuh0NLm_Ji1gA" name="" memberEnd="_Y6QVceRLEeuh0NLm_Ji1gA _Y6BE4ORLEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_Y6QVceRLEeuh0NLm_Ji1gA" name="" type="_Y5Ge4ORLEeuh0NLm_Ji1gA" association="_Y6QVcORLEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Y6Q8geRLEeuh0NLm_Ji1gA" name="" memberEnd="_Y6Q8guRLEeuh0NLm_Ji1gA _Y6CTAORLEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_Y6Q8guRLEeuh0NLm_Ji1gA" name="" type="_Y5Ge4ORLEeuh0NLm_Ji1gA" association="_Y6Q8geRLEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Y4nWsORLEeuh0NLm_Ji1gA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Y4nWseRLEeuh0NLm_Ji1gA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Y55wIORLEeuh0NLm_Ji1gA" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_YyPo8ORLEeuh0NLm_Ji1gA">
+      <eAnnotations xmi:id="_YyQQAORLEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_YyQ3EORLEeuh0NLm_Ji1gA" base_Package="_YpFs8ORLEeuh0NLm_Ji1gA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Y41ZIORLEeuh0NLm_Ji1gA" base_Element="_Y40yEORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_Y42AMORLEeuh0NLm_Ji1gA" base_Element="_Y40yEORLEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_Y42AMeRLEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Y464sORLEeuh0NLm_Ji1gA" base_Element="_Y46RoORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_Y47fwORLEeuh0NLm_Ji1gA" base_Element="_Y46RoORLEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_Y47fweRLEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Y5BmYORLEeuh0NLm_Ji1gA" base_Element="_Y5AYQORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_Y56XMORLEeuh0NLm_Ji1gA" base_Element="_Y55wIORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Y5-ooORLEeuh0NLm_Ji1gA" base_Element="_Y5-BkORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Y6Ad0ORLEeuh0NLm_Ji1gA" base_Element="_Y5_2wORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Y6Br8ORLEeuh0NLm_Ji1gA" base_Element="_Y6BE4ORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Y6CTAeRLEeuh0NLm_Ji1gA" base_Element="_Y6CTAORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_Y6OgQORLEeuh0NLm_Ji1gA" base_Element="_Y6MrEORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_Y6PuYORLEeuh0NLm_Ji1gA" base_Element="_Y6PHUORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_Y6Q8gORLEeuh0NLm_Ji1gA" base_Element="_Y6QVcORLEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_Y6SKoORLEeuh0NLm_Ji1gA" base_Element="_Y6Q8geRLEeuh0NLm_Ji1gA"/>
+</xmi:XMI>

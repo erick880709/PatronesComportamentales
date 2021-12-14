@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_LkebkORVEeuh0NLm_Ji1gA" name="mediator">
+    <eAnnotations xmi:id="_L0WDkORVEeuh0NLm_Ji1gA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_L0WDkeRVEeuh0NLm_Ji1gA" source="codegen">
+        <details xmi:id="_L0WDkuRVEeuh0NLm_Ji1gA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_MBAmkORVEeuh0NLm_Ji1gA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/mediator/Main.java;1985656985/1;/PatronesComportamentales/src/mediator/IUsuarioChat.java;2541731147/1;/PatronesComportamentales/src/mediator/ISalonChat.java;2717856487/1;/PatronesComportamentales/src/mediator/SalonChat.java;1356058590/1;/PatronesComportamentales/src/mediator/Usuario.java;2956078494/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_L8YlQORVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_L8YlQeRVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_L8YlQuRVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_L8ZMUORVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_L8ZMUeRVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_L8ZMUuRVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_L8ZMU-RVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_L8ZMVORVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_L8ZzYORVEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L8bokORVEeuh0NLm_Ji1gA" name="mediator">
+      <packagedElement xmi:type="uml:Class" xmi:id="_L8_CMORVEeuh0NLm_Ji1gA" name="Main">
+        <ownedComment xmi:id="_L-CLEORVEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_L9_u0ORVEeuh0NLm_Ji1gA" name="main" specification="_L9AQUORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L9_u0eRVEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9_u0uRVEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>SalonChat salon = new SalonChat();&#xD;
+     &#xD;
+     Usuario u = new Usuario(salon);&#xD;
+     u.setNombre(&quot;Pedro&quot;);&#xD;
+     salon.registra(u);&#xD;
+     &#xD;
+     Usuario u2 = new Usuario(salon);&#xD;
+     u2.setNombre(&quot;Juan&quot;);&#xD;
+     salon.registra(u2);&#xD;
+     &#xD;
+     Usuario u3 = new Usuario(salon);&#xD;
+     u3.setNombre(&quot;Luisa&quot;);&#xD;
+     salon.registra(u3);&#xD;
+     &#xD;
+     u.envia(&quot;Juan&quot;, &quot;Hola Juan&quot;);&#xD;
+     u2.envia(&quot;Pedro&quot;, &quot;Hola Bien Tu?&quot;);&#xD;
+     u3.envia(&quot;Marco&quot;, &quot;Marco estas?&quot;);&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_L9AQUORVEeuh0NLm_Ji1gA" name="main" isStatic="true" method="_L9_u0ORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L9AQUeRVEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9A3YORVEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_L9BecORVEeuh0NLm_Ji1gA" name="IUsuarioChat">
+        <ownedComment xmi:id="_L-CLEeRVEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_L9CskORVEeuh0NLm_Ji1gA" name="envia">
+          <ownedParameter xmi:id="_L9CskeRVEeuh0NLm_Ji1gA" name="para">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L9CskuRVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_L9DToORVEeuh0NLm_Ji1gA" name="recibe">
+          <ownedParameter xmi:id="_L9DToeRVEeuh0NLm_Ji1gA" name="de">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L9DTouRVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_L9D6sORVEeuh0NLm_Ji1gA" name="ISalonChat">
+        <ownedComment xmi:id="_L-CLEuRVEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_L9FI0ORVEeuh0NLm_Ji1gA" name="envia" isAbstract="true">
+          <ownedParameter xmi:id="_L9FI0eRVEeuh0NLm_Ji1gA" name="de">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L9FI0uRVEeuh0NLm_Ji1gA" name="para">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L9FI0-RVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_L9y6gORVEeuh0NLm_Ji1gA" name="registra" isAbstract="true">
+          <ownedParameter xmi:id="_L9y6geRVEeuh0NLm_Ji1gA" name="participante" type="_L9MdkORVEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L9GW8ORVEeuh0NLm_Ji1gA" name="SalonChat">
+        <ownedComment xmi:id="_L-CLE-RVEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_L98EcORVEeuh0NLm_Ji1gA" name="participantes" visibility="private" type="_L9zhkORVEeuh0NLm_Ji1gA" association="_L-FOYORVEeuh0NLm_Ji1gA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_L99SkORVEeuh0NLm_Ji1gA" value="new HashMap&lt;>()"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_L90vseRVEeuh0NLm_Ji1gA" client="_L9GW8ORVEeuh0NLm_Ji1gA" supplier="_L9D6sORVEeuh0NLm_Ji1gA" contract="_L9D6sORVEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_L-AV4ORVEeuh0NLm_Ji1gA" name="registra" specification="_L9190ORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L-AV4eRVEeuh0NLm_Ji1gA" name="participante" type="_L9MdkORVEeuh0NLm_Ji1gA"/>
+          <language>java</language>
+          <body>participantes.put(participante.getNombre(), participante);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_L-AV4uRVEeuh0NLm_Ji1gA" name="envia" specification="_L9HlEORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L-AV4-RVEeuh0NLm_Ji1gA" name="de">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L-AV5ORVEeuh0NLm_Ji1gA" name="para">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L-AV5eRVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(participantes.containsKey(de) &amp;&amp; participantes.containsKey(para)){&#xD;
+         Usuario u = participantes.get(para);&#xD;
+         u.recibe(de, msg);&#xD;
+     }&#xD;
+     else{&#xD;
+         System.out.println(&quot;Usuario No Existe&quot;);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_L9HlEORVEeuh0NLm_Ji1gA" name="envia" method="_L-AV4uRVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L9HlEeRVEeuh0NLm_Ji1gA" name="de">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L9HlEuRVEeuh0NLm_Ji1gA" name="para">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L9HlE-RVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_L9190ORVEeuh0NLm_Ji1gA" name="registra" method="_L-AV4ORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L9190eRVEeuh0NLm_Ji1gA" name="participante" type="_L9MdkORVEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L9MdkORVEeuh0NLm_Ji1gA" name="Usuario">
+        <ownedComment xmi:id="_L-CyIORVEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_L995oeRVEeuh0NLm_Ji1gA" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_L9-gsORVEeuh0NLm_Ji1gA" name="salon" type="_L9GW8ORVEeuh0NLm_Ji1gA" association="_L-CyIeRVEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_L94aEORVEeuh0NLm_Ji1gA" client="_L9MdkORVEeuh0NLm_Ji1gA" supplier="_L9BecORVEeuh0NLm_Ji1gA" contract="_L9BecORVEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_L-A88ORVEeuh0NLm_Ji1gA" name="Usuario" specification="_L95BIORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L-A88eRVEeuh0NLm_Ji1gA" name="salon" type="_L9GW8ORVEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_L-A88uRVEeuh0NLm_Ji1gA" type="_L9MdkORVEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>this.salon = salon;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_L-A88-RVEeuh0NLm_Ji1gA" name="envia" specification="_L9Pg4ORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L-A89ORVEeuh0NLm_Ji1gA" name="para">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L-A89eRVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>salon.envia(nombre,para,msg);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_L-BkAORVEeuh0NLm_Ji1gA" name="recibe" specification="_L9RWEORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L-BkAeRVEeuh0NLm_Ji1gA" name="de">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L-BkAuRVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String salida = &quot;el usuario &quot;+de+&quot; dice: &quot;+msg;&#xD;
+     System.out.println(nombre+&quot;: &quot;+salida);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_L9Pg4ORVEeuh0NLm_Ji1gA" name="envia" method="_L-A88-RVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L9Pg4eRVEeuh0NLm_Ji1gA" name="para">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L9Pg4uRVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_L9RWEORVEeuh0NLm_Ji1gA" name="recibe" method="_L-BkAORVEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_L9RWEeRVEeuh0NLm_Ji1gA" name="de">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_L9RWEuRVEeuh0NLm_Ji1gA" name="msg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_L95BIORVEeuh0NLm_Ji1gA" name="Usuario" method="_L-A88ORVEeuh0NLm_Ji1gA">
+          <eAnnotations xmi:id="_L95BIuRVEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_L95BI-RVEeuh0NLm_Ji1gA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_L95BIeRVEeuh0NLm_Ji1gA" name="salon" type="_L9GW8ORVEeuh0NLm_Ji1gA"/>
+          <ownedParameter xmi:id="_L95BJORVEeuh0NLm_Ji1gA" type="_L9MdkORVEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_L-CyIeRVEeuh0NLm_Ji1gA" name="" memberEnd="_L9-gsORVEeuh0NLm_Ji1gA _L-CyIuRVEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_L-CyIuRVEeuh0NLm_Ji1gA" name="" type="_L9MdkORVEeuh0NLm_Ji1gA" association="_L-CyIeRVEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_L-FOYORVEeuh0NLm_Ji1gA" name="" memberEnd="_L-FOYeRVEeuh0NLm_Ji1gA _L98EcORVEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_L-FOYeRVEeuh0NLm_Ji1gA" name="" type="_L9GW8ORVEeuh0NLm_Ji1gA" association="_L-FOYORVEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_L8ghEORVEeuh0NLm_Ji1gA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_L8ghEeRVEeuh0NLm_Ji1gA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_L9zhkORVEeuh0NLm_Ji1gA" name="HashMap"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_L2Nr0ORVEeuh0NLm_Ji1gA">
+      <eAnnotations xmi:id="_L2Nr0eRVEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_L2OS4ORVEeuh0NLm_Ji1gA" base_Package="_LkebkORVEeuh0NLm_Ji1gA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9IMIORVEeuh0NLm_Ji1gA" base_Element="_L9HlEORVEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_L9JaQORVEeuh0NLm_Ji1gA" base_Element="_L9HlEORVEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_L9JaQeRVEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9QH8ORVEeuh0NLm_Ji1gA" base_Element="_L9Pg4ORVEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_L9QvAORVEeuh0NLm_Ji1gA" base_Element="_L9Pg4ORVEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_L9QvAeRVEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L9R9IORVEeuh0NLm_Ji1gA" base_Element="_L9RWEORVEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_L9SkMORVEeuh0NLm_Ji1gA" base_Element="_L9RWEORVEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_L9SkMeRVEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_L90vsORVEeuh0NLm_Ji1gA" base_Element="_L9zhkORVEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L92k4ORVEeuh0NLm_Ji1gA" base_Element="_L9190ORVEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_L93L8ORVEeuh0NLm_Ji1gA" base_Element="_L9190ORVEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_L93L8eRVEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_L98rgORVEeuh0NLm_Ji1gA" genericsValue="String, Usuario" base_Element="_L98EcORVEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_L995oORVEeuh0NLm_Ji1gA" base_Element="_L98EcORVEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_L-F1cORVEeuh0NLm_Ji1gA" base_Element="_L-FOYORVEeuh0NLm_Ji1gA"/>
+</xmi:XMI>

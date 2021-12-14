@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_w83dAOUTEeu518O4MRMQJA" name="PatronesComportamentales">
+    <eAnnotations xmi:id="_xGy1EOUTEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_xGy1EeUTEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_xGy1EuUTEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_xUddoOUTEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/visitor/IVA.java;3399749236/1;/PatronesComportamentales/src/visitor/IVisitable.java;1110653864/1;/PatronesComportamentales/src/visitor/Main.java;3527986581/1;/PatronesComportamentales/src/visitor/ProductoDescuento.java;2638442634/1;/PatronesComportamentales/src/visitor/ProductoNormal.java;3579992428/1;/PatronesComportamentales/src/visitor/Visitor.java;1897167845/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_xPZXcOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_xPZXceUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_xPZ-gOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_xPZ-geUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_xPZ-guUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_xPZ-g-UTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_xPZ-hOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_xPalkOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_xPalkeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_xPeP8OUTEeu518O4MRMQJA" name="visitor">
+      <packagedElement xmi:type="uml:Class" xmi:id="_xP9_MOUTEeu518O4MRMQJA" name="IVA">
+        <ownedComment xmi:id="_xQ7ogOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_xQ2I8OUTEeu518O4MRMQJA" name="impuestoNormal" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xQ2wAOUTEeu518O4MRMQJA" value="0.19"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_xQ3XEeUTEeu518O4MRMQJA" name="impuestoDescuento" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_xQ3XEuUTEeu518O4MRMQJA" value="0.1"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_xQp7sOUTEeu518O4MRMQJA" client="_xP9_MOUTEeu518O4MRMQJA" supplier="_xQJlYOUTEeu518O4MRMQJA" contract="_xQJlYOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xQ5zUOUTEeu518O4MRMQJA" name="visit" specification="_xQqiwOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQ5zUeUTEeu518O4MRMQJA" name="normal" type="_xQHJIOUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQ5zUuUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return normal.getPrecio()*impuestoNormal;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xQ5zU-UTEeu518O4MRMQJA" name="visit" specification="_xQsX8uUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQ5zVOUTEeu518O4MRMQJA" name="descuento" type="_xQFT8OUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQ5zVeUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return descuento.getPrecio()*impuestoDescuento;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_xQqiwOUTEeu518O4MRMQJA" name="visit" method="_xQ5zUOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQrJ0OUTEeu518O4MRMQJA" name="normal" type="_xQHJIOUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQrJ0eUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_xQsX8uUTEeu518O4MRMQJA" name="visit" method="_xQ5zU-UTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQs_AOUTEeu518O4MRMQJA" name="descuento" type="_xQFT8OUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQs_AeUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_xQBCgOUTEeu518O4MRMQJA" name="IVisitable">
+        <ownedComment xmi:id="_xQ7ogeUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_xQu0MOUTEeu518O4MRMQJA" name="accept">
+          <ownedParameter xmi:id="_xQu0MeUTEeu518O4MRMQJA" name="visitor" type="_xQJlYOUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQu0MuUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xQC3sOUTEeu518O4MRMQJA" name="Main">
+        <ownedComment xmi:id="_xQ8PkOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xQ6aYOUTEeu518O4MRMQJA" name="main" specification="_xQEF0OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQ6aYeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xQ6aYuUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ProductoDescuento p1 = new ProductoDescuento();&#xD;
+     p1.setPrecio(100);&#xD;
+     ProductoNormal p2 = new ProductoNormal();&#xD;
+     p2.setPrecio(100);&#xD;
+     &#xD;
+     IVA iva = new IVA();&#xD;
+     double resultado1 = p1.accept(iva);&#xD;
+     double resultado2 = p2.accept(iva);&#xD;
+     &#xD;
+     System.out.println(&quot;Resultado para Producto 1 &quot;+resultado1);&#xD;
+     System.out.println(&quot;Resultado para Producto 2 &quot;+resultado2);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_xQEF0OUTEeu518O4MRMQJA" name="main" isStatic="true" method="_xQ6aYOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQEF0eUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xQEs4OUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xQFT8OUTEeu518O4MRMQJA" name="ProductoDescuento">
+        <ownedComment xmi:id="_xQ8PkeUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_xQ4lMOUTEeu518O4MRMQJA" name="precio">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_xQvbQOUTEeu518O4MRMQJA" client="_xQFT8OUTEeu518O4MRMQJA" supplier="_xQBCgOUTEeu518O4MRMQJA" contract="_xQBCgOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xQ7BcOUTEeu518O4MRMQJA" name="accept" specification="_xQwCUOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQ7BceUTEeu518O4MRMQJA" name="visitor" type="_xQJlYOUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQ7BcuUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return visitor.visit(this);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_xQwCUOUTEeu518O4MRMQJA" name="accept" method="_xQ7BcOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQwCUeUTEeu518O4MRMQJA" name="visitor" type="_xQJlYOUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQwpYOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xQHJIOUTEeu518O4MRMQJA" name="ProductoNormal">
+        <ownedComment xmi:id="_xQ8PkuUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_xQ5MQOUTEeu518O4MRMQJA" name="precio">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_xQx3gOUTEeu518O4MRMQJA" client="_xQHJIOUTEeu518O4MRMQJA" supplier="_xQBCgOUTEeu518O4MRMQJA" contract="_xQBCgOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xQ7Bc-UTEeu518O4MRMQJA" name="accept" specification="_xQyekOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQ7BdOUTEeu518O4MRMQJA" name="visitor" type="_xQJlYOUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQ7BdeUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return visitor.visit(this);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_xQyekOUTEeu518O4MRMQJA" name="accept" method="_xQ7Bc-UTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_xQyekeUTEeu518O4MRMQJA" name="visitor" type="_xQJlYOUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQyekuUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_xQJlYOUTEeu518O4MRMQJA" name="Visitor">
+        <ownedComment xmi:id="_xQ8Pk-UTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_xQ0TwOUTEeu518O4MRMQJA" name="visit">
+          <ownedParameter xmi:id="_xQ0TweUTEeu518O4MRMQJA" name="normal" type="_xQHJIOUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQ0TwuUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_xQ060OUTEeu518O4MRMQJA" name="visit">
+          <ownedParameter xmi:id="_xQ060eUTEeu518O4MRMQJA" name="descuento" type="_xQFT8OUTEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_xQ1h4OUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_xKUDIOUTEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_xKUDIeUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_xKUDIuUTEeu518O4MRMQJA" base_Package="_w83dAOUTEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_xQrw4OUTEeu518O4MRMQJA" base_Element="_xQqiwOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_xQsX8OUTEeu518O4MRMQJA" base_Element="_xQqiwOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_xQsX8eUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_xQtmEOUTEeu518O4MRMQJA" base_Element="_xQsX8uUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_xQuNIOUTEeu518O4MRMQJA" base_Element="_xQsX8uUTEeu518O4MRMQJA">
+    <annotations xmi:id="_xQuNIeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_xQwpYeUTEeu518O4MRMQJA" base_Element="_xQwCUOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_xQxQcOUTEeu518O4MRMQJA" base_Element="_xQwCUOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_xQxQceUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_xQzFoOUTEeu518O4MRMQJA" base_Element="_xQyekOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_xQzssOUTEeu518O4MRMQJA" base_Element="_xQyekOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_xQzsseUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_xQ3XEOUTEeu518O4MRMQJA" base_Element="_xQ2I8OUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_xQ3-IOUTEeu518O4MRMQJA" base_Element="_xQ3XEeUTEeu518O4MRMQJA"/>
+</xmi:XMI>

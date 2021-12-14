@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_HGNvMOUTEeu518O4MRMQJA">
+  <modelElement href="PatronesComportamentales2.uml#_Hg3D0OUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JAj8AOUTEeu518O4MRMQJA" targetItem="_JA7IYOUTEeu518O4MRMQJA" sourceItem="_JAXHsOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JA56QOUTEeu518O4MRMQJA" source="_JA7IYOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales2.uml#_H1czwOUTEeu518O4MRMQJA"/>
+    <stereotypes xmi:id="_JA56QeUTEeu518O4MRMQJA" name="Reference">
+      <modelElement href="PatronesComportamentales2.uml#_H1nL0OUTEeu518O4MRMQJA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JA6hUOUTEeu518O4MRMQJA" text=""/>
+    <sourceRole xmi:id="_JA6hUeUTEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesComportamentales2.uml#_H1czweUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_JA6hUuUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JA6hU-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JA6hVOUTEeu518O4MRMQJA" aggregationKind="NONE" name="estados" navigable="true">
+      <modelElement href="PatronesComportamentales2.uml#_H0yFYOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_BTk4UOZqEeuDNYNZm50Ugg" name="Generics">
+        <modelElement href="PatronesComportamentales2.uml#_H01vwOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_BTk4UeZqEeuDNYNZm50Ugg" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales2.uml#_H04MAOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_JA6hVeUTEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_JA6hVuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JCIpUOUTEeu518O4MRMQJA" targetItem="_JCLFkOUTEeu518O4MRMQJA" sourceItem="_JBvAsOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JCsqAOUTEeu518O4MRMQJA" targetItem="_JCywoOUTEeu518O4MRMQJA" sourceItem="_JCaWIOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JDukwOUTEeu518O4MRMQJA" targetItem="_JDy2MOUTEeu518O4MRMQJA" sourceItem="_JDKkEOUTEeu518O4MRMQJA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JAXHsOUTEeu518O4MRMQJA" sourceConnectionVisual="_JAj8AOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_JA7IYOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales2.uml#_H1U38OUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JBvAsOUTEeu518O4MRMQJA" sourceConnectionVisual="_JCIpUOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_JCLFkOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales2.uml#_H1U38eUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JCaWIOUTEeu518O4MRMQJA" sourceConnectionVisual="_JCsqAOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_JCywoOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales2.uml#_H1VfAOUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JDKkEOUTEeu518O4MRMQJA" sourceConnectionVisual="_JDukwOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_JDy2MOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales2.uml#_H1VfAeUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JA7IYOUTEeu518O4MRMQJA" comments="_JAXHsOUTEeu518O4MRMQJA" targetConnectionVisual="_JAj8AOUTEeu518O4MRMQJA" name="CareTaker" associationsOut="_JA56QOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales2.uml#_Hheu4OUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_JA7IYeUTEeu518O4MRMQJA" position="10.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JA7IYuUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_JA7IY-UTEeu518O4MRMQJA" defaultValue="new ArrayList&lt;>()" name="estados">
+      <modelElement href="PatronesComportamentales2.uml#_H0yFYOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_BT5BYOZqEeuDNYNZm50Ugg" name="Generics"/>
+      <stereotypes xmi:id="_BT6PgOZqEeuDNYNZm50Ugg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BT7doOZqEeuDNYNZm50Ugg" name="Generics"/>
+      <stereotypes xmi:id="_BT8EsOZqEeuDNYNZm50Ugg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_BT954OZqEeuDNYNZm50Ugg" name="Generics"/>
+      <stereotypes xmi:id="_BT-g8OZqEeuDNYNZm50Ugg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_KVjAYOZwEeuDNYNZm50Ugg" name="Generics"/>
+      <stereotypes xmi:id="_KVjncOZwEeuDNYNZm50Ugg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_KVk1kOZwEeuDNYNZm50Ugg" name="Generics"/>
+      <stereotypes xmi:id="_KVk1keZwEeuDNYNZm50Ugg" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_KVmDsOZwEeuDNYNZm50Ugg" name="Generics"/>
+      <stereotypes xmi:id="_KVmDseZwEeuDNYNZm50Ugg" name="LegacyStyledElement"/>
+      <visibility xmi:id="_JA7IZuUTEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_JA7IZ-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_JA7IaOUTEeu518O4MRMQJA" name="ArrayList">
+        <modelElement href="PatronesComportamentales2.uml#_H0i00OUTEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JA7IaeUTEeu518O4MRMQJA" name="getMemento">
+      <modelElement href="PatronesComportamentales2.uml#_HhmqsOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_JA7IauUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JA7Ia-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JA7IbOUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales2.uml#_H0pigOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_JA7IbeUTEeu518O4MRMQJA" name="Memento">
+          <modelElement href="PatronesComportamentales2.uml#_Hh-eIOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JA7IbuUTEeu518O4MRMQJA" name="i">
+        <modelElement href="PatronesComportamentales2.uml#_HhnRwOUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_JA7Ib-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_JA7IcOUTEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JA7IceUTEeu518O4MRMQJA" name="agregarMemento">
+      <modelElement href="PatronesComportamentales2.uml#_H0oUYOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_JA7IcuUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JA7Ic-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JA7IdOUTEeu518O4MRMQJA" name="m">
+        <modelElement href="PatronesComportamentales2.uml#_H0oUYeUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_JA7IdeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_JA7IduUTEeu518O4MRMQJA" name="Memento">
+          <modelElement href="PatronesComportamentales2.uml#_Hh-eIOUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JCLFkOUTEeu518O4MRMQJA" comments="_JBvAsOUTEeu518O4MRMQJA" targetConnectionVisual="_JCIpUOUTEeu518O4MRMQJA" name="Main">
+    <modelElement href="PatronesComportamentales2.uml#_Hh6MsOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_JCLFkeUTEeu518O4MRMQJA" position="341.0,365.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JCLFkuUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_JCLFk-UTEeu518O4MRMQJA" name="main" staticOperation="true">
+      <modelElement href="PatronesComportamentales2.uml#_Hh8B4OUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_JCLFlOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JCLFleUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JCLFluUTEeu518O4MRMQJA" name="args">
+        <modelElement href="PatronesComportamentales2.uml#_Hh8B4eUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_JCLFl-UTEeu518O4MRMQJA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_JCLFmOUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JCywoOUTEeu518O4MRMQJA" comments="_JCaWIOUTEeu518O4MRMQJA" targetConnectionVisual="_JCsqAOUTEeu518O4MRMQJA" name="Memento">
+    <modelElement href="PatronesComportamentales2.uml#_Hh-eIOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_JCywoeUTEeu518O4MRMQJA" position="18.0,199.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JCywouUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_JCywo-UTEeu518O4MRMQJA" name="estado">
+      <modelElement href="PatronesComportamentales2.uml#_H06BMOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_JCywpOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales2.uml#_H07PUOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_JCywpeUTEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_JCywpuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_JCywp-UTEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JCywqOUTEeu518O4MRMQJA" name="Memento">
+      <modelElement href="PatronesComportamentales2.uml#_HiATUOUTEeu518O4MRMQJA"/>
+      <keywords xmi:id="_JCywqeUTEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_JCywquUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JCywq-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JCywrOUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales2.uml#_HiCvkOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_JCywreUTEeu518O4MRMQJA" name="Memento">
+          <modelElement href="PatronesComportamentales2.uml#_Hh-eIOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JCywruUTEeu518O4MRMQJA" name="estado">
+        <modelElement href="PatronesComportamentales2.uml#_HiBhcOUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_JCywr-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_JCywsOUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JCywseUTEeu518O4MRMQJA" name="getEstadoGuardado">
+      <modelElement href="PatronesComportamentales2.uml#_HiDWoOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_JCywsuUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JCzXsOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JCzXseUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales2.uml#_HiD9sOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_JCzXsuUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JDy2MOUTEeu518O4MRMQJA" comments="_JDKkEOUTEeu518O4MRMQJA" targetConnectionVisual="_JDukwOUTEeu518O4MRMQJA" name="Persona">
+    <modelElement href="PatronesComportamentales2.uml#_HiFL0OUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_JDy2MeUTEeu518O4MRMQJA" position="20.0,355.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JDy2MuUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_JDy2M-UTEeu518O4MRMQJA" name="nombre">
+      <modelElement href="PatronesComportamentales2.uml#_H072YOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_JDy2NOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JDy2NeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_JDy2NuUTEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JDy2N-UTEeu518O4MRMQJA" name="guardarEnMemento">
+      <modelElement href="PatronesComportamentales2.uml#_HiHBAOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_JDy2OOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JDy2OeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_JDy2OuUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales2.uml#_H0sl0OUTEeu518O4MRMQJA"/>
+        <type xmi:id="_JDy2O-UTEeu518O4MRMQJA" name="Memento">
+          <modelElement href="PatronesComportamentales2.uml#_Hh-eIOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JDy2POUTEeu518O4MRMQJA" name="restaurarDeMemento">
+      <modelElement href="PatronesComportamentales2.uml#_H0sl0eUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_JDy2PeUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_JDy2PuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_JDy2P-UTEeu518O4MRMQJA" name="m">
+        <modelElement href="PatronesComportamentales2.uml#_H0tM4OUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_JDy2QOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_JDy2QeUTEeu518O4MRMQJA" name="Memento">
+          <modelElement href="PatronesComportamentales2.uml#_Hh-eIOUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

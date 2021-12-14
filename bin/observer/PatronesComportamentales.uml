@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Zu9L8OUTEeu518O4MRMQJA" name="PatronesComportamentales">
+    <eAnnotations xmi:id="_Z5j5cOUTEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Z5kggOUTEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_Z5kggeUTEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_aMXgsOUTEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/observer/Administracion.java;3459070321/1;/PatronesComportamentales/src/observer/Main.java;811144479/1;/PatronesComportamentales/src/observer/Biblioteca.java;305253607/1;/PatronesComportamentales/src/observer/Compras.java;1248762244/1;/PatronesComportamentales/src/observer/ILibroMalEstado.java;751434435/1;/PatronesComportamentales/src/observer/Libro.java;75647334/1;/PatronesComportamentales/src/observer/AlarmaLibro.java;4024641440/1;/PatronesComportamentales/src/observer/Stock.java;3762178866/1;/PatronesComportamentales/src/observer/Subject.java;1314261141/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_aE1VUOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_aE2jcOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_aE2jceUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_aE2jcuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_aE3KgOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_aE3KgeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_aE3KguUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_aE3xkOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_aE3xkeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aE8qEOUTEeu518O4MRMQJA" name="observer">
+      <packagedElement xmi:type="uml:Class" xmi:id="_aFeOgOUTEeu518O4MRMQJA" name="Administracion">
+        <ownedComment xmi:id="_aHbWUOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_aG-qYOUTEeu518O4MRMQJA" client="_aFeOgOUTEeu518O4MRMQJA" supplier="_aFs4AOUTEeu518O4MRMQJA" contract="_aFs4AOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aHXE4OUTEeu518O4MRMQJA" name="update" specification="_aFgDsOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Administracion:&quot;);&#xD;
+     System.out.println(&quot;EnvÃ­o una queja formal&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aFgDsOUTEeu518O4MRMQJA" name="update" method="_aHXE4OUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aFjuEOUTEeu518O4MRMQJA" name="Main">
+        <ownedComment xmi:id="_aHbWUeUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aHYTAOUTEeu518O4MRMQJA" name="main" specification="_aFljQOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aHYTAeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aHYTAuUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>AlarmaLibro alarma = new AlarmaLibro();&#xD;
+     alarma.adjuntar(new Compras());&#xD;
+     alarma.adjuntar(new Administracion());&#xD;
+     alarma.adjuntar(new Stock());&#xD;
+     &#xD;
+     Libro libro = new Libro();&#xD;
+     libro.setEstado(&quot;MALO&quot;);&#xD;
+     &#xD;
+     Biblioteca biblioteca =new Biblioteca();&#xD;
+     biblioteca.devolverLibro(libro);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aFljQOUTEeu518O4MRMQJA" name="main" isStatic="true" method="_aHYTAOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aFljQeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aFmKUOUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aFmxYOUTEeu518O4MRMQJA" name="Biblioteca">
+        <ownedComment xmi:id="_aHb9YOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aHY6EOUTEeu518O4MRMQJA" name="devolverLibro" specification="_aG_4gOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aHY6EeUTEeu518O4MRMQJA" name="libro" type="_aFutMOUTEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>if(libro.getEstado().equals(&quot;MALO&quot;)){&#xD;
+         System.out.println(&quot;esta malo&quot;);&#xD;
+         AlarmaLibro alarma = new AlarmaLibro();&#xD;
+         alarma.notificarObservers();&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aG_4gOUTEeu518O4MRMQJA" name="devolverLibro" method="_aHY6EOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aG_4geUTEeu518O4MRMQJA" name="libro" type="_aFutMOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aFomkOUTEeu518O4MRMQJA" name="Compras">
+        <ownedComment xmi:id="_aHb9YeUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_aHAfkOUTEeu518O4MRMQJA" client="_aFomkOUTEeu518O4MRMQJA" supplier="_aFs4AOUTEeu518O4MRMQJA" contract="_aFs4AOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aHY6EuUTEeu518O4MRMQJA" name="update" specification="_aFqbwOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Compras:&quot;);&#xD;
+     System.out.println(&quot;Solicito cotizaciÃ³n&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aFqbwOUTEeu518O4MRMQJA" name="update" method="_aHY6EuUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_aFs4AOUTEeu518O4MRMQJA" name="ILibroMalEstado">
+        <ownedComment xmi:id="_aHb9YuUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_aFuGIOUTEeu518O4MRMQJA" name="update"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aFutMOUTEeu518O4MRMQJA" name="Libro">
+        <ownedComment xmi:id="_aHb9Y-UTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_aHRlUOUTEeu518O4MRMQJA" name="titulo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_aHSMYOUTEeu518O4MRMQJA" name="estado">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aFxwgOUTEeu518O4MRMQJA" name="AlarmaLibro">
+        <ownedComment xmi:id="_aHckcOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_aHSzcOUTEeu518O4MRMQJA" name="observadores" visibility="private" isStatic="true" type="_aHBGoOUTEeu518O4MRMQJA" association="_aHfAsOUTEeu518O4MRMQJA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aHUooeUTEeu518O4MRMQJA" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_aHDi4OUTEeu518O4MRMQJA" client="_aFxwgOUTEeu518O4MRMQJA" supplier="_aF8voOUTEeu518O4MRMQJA" contract="_aF8voOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aHZhIOUTEeu518O4MRMQJA" name="adjuntar" specification="_aHExAOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aHZhIeUTEeu518O4MRMQJA" name="observer" type="_aFs4AOUTEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>observadores.add(observer);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aHaIMOUTEeu518O4MRMQJA" name="desadjuntar" specification="_aHHNQOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aHaIMeUTEeu518O4MRMQJA" name="observer" type="_aFs4AOUTEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>observadores.remove(observer);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aHaIMuUTEeu518O4MRMQJA" name="notificarObservers" specification="_aFzlsOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>for (int i = 0; i &lt; observadores.size(); i++) {&#xD;
+         observadores.get(i).update();&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aFzlsOUTEeu518O4MRMQJA" name="notificarObservers" method="_aHaIMuUTEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_aHExAOUTEeu518O4MRMQJA" name="adjuntar" method="_aHZhIOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aHExAeUTEeu518O4MRMQJA" name="observer" type="_aFs4AOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aHHNQOUTEeu518O4MRMQJA" name="desadjuntar" method="_aHaIMOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aHHNQeUTEeu518O4MRMQJA" name="observer" type="_aFs4AOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aF4eMOUTEeu518O4MRMQJA" name="Stock">
+        <ownedComment xmi:id="_aHckceUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_aHKQkOUTEeu518O4MRMQJA" client="_aF4eMOUTEeu518O4MRMQJA" supplier="_aFs4AOUTEeu518O4MRMQJA" contract="_aFs4AOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aHavQOUTEeu518O4MRMQJA" name="update" specification="_aF6TYOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Stock&quot;);&#xD;
+     System.out.println(&quot;Elimino el libro&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aF6TYOUTEeu518O4MRMQJA" name="update" method="_aHavQOUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_aF8voOUTEeu518O4MRMQJA" name="Subject">
+        <ownedComment xmi:id="_aHckcuUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_aF_L4OUTEeu518O4MRMQJA" name="notificarObservers"/>
+        <ownedOperation xmi:id="_aHMFwOUTEeu518O4MRMQJA" name="adjuntar">
+          <ownedParameter xmi:id="_aHMs0OUTEeu518O4MRMQJA" name="observer" type="_aFs4AOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aHNT4OUTEeu518O4MRMQJA" name="desadjuntar">
+          <ownedParameter xmi:id="_aHNT4eUTEeu518O4MRMQJA" name="observer" type="_aFs4AOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_aHfAsOUTEeu518O4MRMQJA" name="" memberEnd="_aHfnwOUTEeu518O4MRMQJA _aHSzcOUTEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_aHfnwOUTEeu518O4MRMQJA" name="" type="_aFxwgOUTEeu518O4MRMQJA" association="_aHfAsOUTEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aFI3UOUTEeu518O4MRMQJA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_aFJeYOUTEeu518O4MRMQJA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aHBGoOUTEeu518O4MRMQJA" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Z5lHkOUTEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_Z5luoOUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Z5luoeUTEeu518O4MRMQJA" base_Package="_Zu9L8OUTEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aFgqwOUTEeu518O4MRMQJA" base_Element="_aFgDsOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aFif8OUTEeu518O4MRMQJA" base_Element="_aFgDsOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_aFif8eUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aFrC0OUTEeu518O4MRMQJA" base_Element="_aFqbwOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aFrp4OUTEeu518O4MRMQJA" base_Element="_aFqbwOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_aFsQ8OUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aF0MwOUTEeu518O4MRMQJA" base_Element="_aFzlsOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aF0z0OUTEeu518O4MRMQJA" base_Element="_aFzlsOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_aF0z0eUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aF66cOUTEeu518O4MRMQJA" base_Element="_aF6TYOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aF7hgOUTEeu518O4MRMQJA" base_Element="_aF6TYOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_aF7hgeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_aHC70OUTEeu518O4MRMQJA" base_Element="_aHBGoOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aHFYEOUTEeu518O4MRMQJA" base_Element="_aHExAOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aHGmMOUTEeu518O4MRMQJA" base_Element="_aHExAOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_aHGmMeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aHH0UOUTEeu518O4MRMQJA" base_Element="_aHHNQOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aHIbYOUTEeu518O4MRMQJA" base_Element="_aHHNQOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_aHJCcOUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_aHUooOUTEeu518O4MRMQJA" genericsValue="ILibroMalEstado" base_Element="_aHSzcOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aHV2wOUTEeu518O4MRMQJA" base_Element="_aHSzcOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_aHg14OUTEeu518O4MRMQJA" base_Element="_aHfAsOUTEeu518O4MRMQJA"/>
+</xmi:XMI>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_sPrVIOUTEeu518O4MRMQJA">
+  <modelElement href="PatronesComportamentales.uml#_sfB_wOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tv_RUOUTEeu518O4MRMQJA" targetItem="_twBtkOUTEeu518O4MRMQJA" sourceItem="_tv4joOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_twfAkOUTEeu518O4MRMQJA" targetItem="_twiD4OUTEeu518O4MRMQJA" sourceItem="_twRlMOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tw_W4OUTEeu518O4MRMQJA" targetItem="_txDBQOUTEeu518O4MRMQJA" sourceItem="_twyikOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_txcp4OUTEeu518O4MRMQJA" targetItem="_txshgOUTEeu518O4MRMQJA" sourceItem="_txRDsOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_txg7UOUTEeu518O4MRMQJA" sourceAnchor="131.0,0.0" targetAnchor="100.0,136.0" superClass="_txshgOUTEeu518O4MRMQJA" subClass="_twBtkOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sgFIoOUTEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_t_cpoOUTEeu518O4MRMQJA" sourceY="-19" targetX="312" targetY="36"/>
+    <bendpoints xmi:id="_t_cpoeUTEeu518O4MRMQJA" sourceX="-312" sourceY="-19" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_txhiYOUTEeu518O4MRMQJA" sourceAnchor="145.0,0.0" targetAnchor="100.0,136.0" superClass="_txshgOUTEeu518O4MRMQJA" subClass="_twiD4OUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sgGWwOUTEeu518O4MRMQJA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_tyRwUOUTEeu518O4MRMQJA" sourceAnchor="118.0,0.0" targetAnchor="100.0,136.0" superClass="_txshgOUTEeu518O4MRMQJA" subClass="_ty4NQOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sgHk4OUTEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_t_dQsOUTEeu518O4MRMQJA" sourceY="-19" targetX="-299" targetY="36"/>
+    <bendpoints xmi:id="_t_dQseUTEeu518O4MRMQJA" sourceX="299" sourceY="-19" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tyz70OUTEeu518O4MRMQJA" targetItem="_ty4NQOUTEeu518O4MRMQJA" sourceItem="_tyucQOUTEeu518O4MRMQJA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tv4joOUTEeu518O4MRMQJA" sourceConnectionVisual="_tv_RUOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_twBtkOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sgTyIOUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_twRlMOUTEeu518O4MRMQJA" sourceConnectionVisual="_twfAkOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_twiD4OUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sgTyIeUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_twyikOUTEeu518O4MRMQJA" sourceConnectionVisual="_tw_W4OUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_txDBQOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sgTyIuUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_txRDsOUTEeu518O4MRMQJA" sourceConnectionVisual="_txcp4OUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_txshgOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sgUZMOUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tyucQOUTEeu518O4MRMQJA" sourceConnectionVisual="_tyz70OUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_ty4NQOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sgUZMeUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_twBtkOUTEeu518O4MRMQJA" comments="_tv4joOUTEeu518O4MRMQJA" targetConnectionVisual="_tv_RUOUTEeu518O4MRMQJA" name="Cliente" generalizations="_txg7UOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sfX-AOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_twBtkeUTEeu518O4MRMQJA" position="611.0,222.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_twBtkuUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_twBtk-UTEeu518O4MRMQJA" name="numeroCliente">
+      <modelElement href="PatronesComportamentales.uml#_sgKoMOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_twBtlOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_twBtleUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_twBtluUTEeu518O4MRMQJA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_twBtl-UTEeu518O4MRMQJA" name="Cliente">
+      <modelElement href="PatronesComportamentales.uml#_sfZMIOUTEeu518O4MRMQJA"/>
+      <keywords xmi:id="_twBtmOUTEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_twBtmeUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_twBtmuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_twBtm-UTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfZzMuUTEeu518O4MRMQJA"/>
+        <type xmi:id="_twBtnOUTEeu518O4MRMQJA" name="Cliente">
+          <modelElement href="PatronesComportamentales.uml#_sfX-AOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_twBtneUTEeu518O4MRMQJA" name="numeroCliente">
+        <modelElement href="PatronesComportamentales.uml#_sfZMIeUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_twBtnuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_twBtn-UTEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_twBtoOUTEeu518O4MRMQJA" name="getTipoID">
+      <modelElement href="PatronesComportamentales.uml#_sfaaQOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_twBtoeUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_sfbBUOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_twBtouUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_sfboYOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_twBto-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_twBtpOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_twBtpeUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfaaQeUTEeu518O4MRMQJA"/>
+        <type xmi:id="_twBtpuUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_twBtp-UTEeu518O4MRMQJA" name="getIdentificacion">
+      <modelElement href="PatronesComportamentales.uml#_sfboYuUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_twBtqOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_sfcPceUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_twBtqeUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_sfc2gOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_twBtquUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_twBtq-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_twBtrOUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfcPcOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_twBtreUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_twiD4OUTEeu518O4MRMQJA" comments="_twRlMOUTEeu518O4MRMQJA" targetConnectionVisual="_twfAkOUTEeu518O4MRMQJA" name="Empleado" generalizations="_txhiYOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sfeEoOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_twiD4eUTEeu518O4MRMQJA" position="285.0,235.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_twiD4uUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_twiD4-UTEeu518O4MRMQJA" name="expediente">
+      <modelElement href="PatronesComportamentales.uml#_sgLPQOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_twiD5OUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_twiD5eUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_twiD5uUTEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_twiD5-UTEeu518O4MRMQJA" name="Empleado">
+      <modelElement href="PatronesComportamentales.uml#_sffSwOUTEeu518O4MRMQJA"/>
+      <keywords xmi:id="_twiD6OUTEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_twiD6eUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_twiD6uUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_twiD6-UTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sff50eUTEeu518O4MRMQJA"/>
+        <type xmi:id="_twiD7OUTEeu518O4MRMQJA" name="Empleado">
+          <modelElement href="PatronesComportamentales.uml#_sfeEoOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_twiD7eUTEeu518O4MRMQJA" name="expediente">
+        <modelElement href="PatronesComportamentales.uml#_sffSweUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_twiD7uUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_twiD7-UTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_twiD8OUTEeu518O4MRMQJA" name="getTipoID">
+      <modelElement href="PatronesComportamentales.uml#_sff50uUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_twiD8eUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_sfhH8OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_twiD8uUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_sfhH8eUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_twiD8-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_twiD9OUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_twiD9eUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfgg4OUTEeu518O4MRMQJA"/>
+        <type xmi:id="_twiD9uUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_twiD9-UTEeu518O4MRMQJA" name="getIdentificacion">
+      <modelElement href="PatronesComportamentales.uml#_sfhvAOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_twiD-OUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_sfiWEOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_twiD-eUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_sfi9IOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_twiD-uUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_twiD--UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_twiD_OUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfhvAeUTEeu518O4MRMQJA"/>
+        <type xmi:id="_twiD_eUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_txDBQOUTEeu518O4MRMQJA" comments="_twyikOUTEeu518O4MRMQJA" targetConnectionVisual="_tw_W4OUTEeu518O4MRMQJA" name="Main">
+    <modelElement href="PatronesComportamentales.uml#_sfkyUOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_txDBQeUTEeu518O4MRMQJA" position="10.0,410.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_txDBQuUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_txDBQ-UTEeu518O4MRMQJA" name="main" staticOperation="true">
+      <modelElement href="PatronesComportamentales.uml#_sflZYOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_txDBROUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_txDBReUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_txDBRuUTEeu518O4MRMQJA" name="args">
+        <modelElement href="PatronesComportamentales.uml#_sflZYeUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_txDBR-UTEeu518O4MRMQJA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_txDBSOUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_txshgOUTEeu518O4MRMQJA" comments="_txRDsOUTEeu518O4MRMQJA" targetConnectionVisual="_txcp4OUTEeu518O4MRMQJA" name="Persona" abstractClass="true" subclassedBy="_txg7UOUTEeu518O4MRMQJA _txhiYOUTEeu518O4MRMQJA _tyRwUOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sfmAceUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_txshgeUTEeu518O4MRMQJA" position="330.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_txshguUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_txshg-UTEeu518O4MRMQJA" name="nombre">
+      <modelElement href="PatronesComportamentales.uml#_sgMdYOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_txshhOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_txshheUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_txshhuUTEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_txshh-UTEeu518O4MRMQJA" name="Id">
+      <modelElement href="PatronesComportamentales.uml#_sgMdYeUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_txshiOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_txshieUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_txshiuUTEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_txshi-UTEeu518O4MRMQJA" name="indentificarse">
+      <modelElement href="PatronesComportamentales.uml#_sfnOkOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_txshjOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_txshjeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_txshjuUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfnOkeUTEeu518O4MRMQJA"/>
+        <type xmi:id="_txshj-UTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_txshkOUTEeu518O4MRMQJA" abstractOperation="true" name="getTipoID">
+      <modelElement href="PatronesComportamentales.uml#_sfn1oOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_txshkeUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_txshkuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_txshk-UTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfn1oeUTEeu518O4MRMQJA"/>
+        <type xmi:id="_txshlOUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_txshleUTEeu518O4MRMQJA" abstractOperation="true" name="getIdentificacion">
+      <modelElement href="PatronesComportamentales.uml#_sfn1ouUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_txshluUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_txshl-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_txshmOUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfocsOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_txshmeUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ty4NQOUTEeu518O4MRMQJA" comments="_tyucQOUTEeu518O4MRMQJA" targetConnectionVisual="_tyz70OUTEeu518O4MRMQJA" name="Socio" generalizations="_tyRwUOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_sfpDwOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_ty4NQeUTEeu518O4MRMQJA" position="13.0,222.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ty4NQuUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_ty4NQ-UTEeu518O4MRMQJA" name="numeroSocio">
+      <modelElement href="PatronesComportamentales.uml#_sgNrgOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_ty4NROUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_ty4NReUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_ty4NRuUTEeu518O4MRMQJA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ty4NR-UTEeu518O4MRMQJA" name="Socio">
+      <modelElement href="PatronesComportamentales.uml#_sfqR4OUTEeu518O4MRMQJA"/>
+      <keywords xmi:id="_ty4NSOUTEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_ty4NSeUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_ty4NSuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ty4NS-UTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfqR5OUTEeu518O4MRMQJA"/>
+        <type xmi:id="_ty4NTOUTEeu518O4MRMQJA" name="Socio">
+          <modelElement href="PatronesComportamentales.uml#_sfpDwOUTEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ty4NTeUTEeu518O4MRMQJA" name="numeroSocio">
+        <modelElement href="PatronesComportamentales.uml#_sfqR4eUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_ty4NTuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_ty4NT-UTEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ty4NUOUTEeu518O4MRMQJA" name="getTipoID">
+      <modelElement href="PatronesComportamentales.uml#_sfq48OUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_ty4NUeUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_sfrgAOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ty4NUuUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_sfrgAeUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_ty4NU-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_ty4NVOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ty4NVeUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfq48eUTEeu518O4MRMQJA"/>
+        <type xmi:id="_ty4NVuUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ty4NV-UTEeu518O4MRMQJA" name="getIdentificacion">
+      <modelElement href="PatronesComportamentales.uml#_sfsHEeUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_ty4NWOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_sftVMOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ty4NWeUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_sft8QOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_ty4NWuUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_ty4NW-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ty4NXOUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_sfsuIOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_ty4NXeUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

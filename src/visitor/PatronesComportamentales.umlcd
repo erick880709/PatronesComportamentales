@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_xCXBAOUTEeu518O4MRMQJA">
+  <modelElement href="PatronesComportamentales.uml#_xPeP8OUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhyzcOUTEeu518O4MRMQJA" targetItem="_yh12wOUTEeu518O4MRMQJA" sourceItem="_yhsFwOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yiSisOUTEeu518O4MRMQJA" targetItem="_yicTsOUTEeu518O4MRMQJA" sourceItem="_yiGVcOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yiVmAOUTEeu518O4MRMQJA" sourceAnchor="127.0,0.0" targetAnchor="116.0,71.0" dashed="true" superClass="_yicTsOUTEeu518O4MRMQJA" subClass="_yjI3QOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQvbQOUTEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_yur_8OUTEeu518O4MRMQJA" sourceY="-38" targetX="-26" targetY="30"/>
+    <bendpoints xmi:id="_yur_8eUTEeu518O4MRMQJA" sourceX="26" sourceY="-38" targetY="30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yiWNEOUTEeu518O4MRMQJA" sourceAnchor="127.0,0.0" targetAnchor="116.0,71.0" dashed="true" superClass="_yicTsOUTEeu518O4MRMQJA" subClass="_yjn_cOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQx3gOUTEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_yur_8uUTEeu518O4MRMQJA" sourceY="-25" targetX="247" targetY="30"/>
+    <bendpoints xmi:id="_yur_8-UTEeu518O4MRMQJA" sourceX="-247" sourceY="-25" targetY="30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yiZQYOUTEeu518O4MRMQJA" targetItem="_yjI3QOUTEeu518O4MRMQJA" sourceItem="_yiYpUOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yiZ3ceUTEeu518O4MRMQJA" targetItem="_yjn_cOUTEeu518O4MRMQJA" sourceItem="_yiZ3cOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yi0uMOUTEeu518O4MRMQJA" targetItem="_yi6NwOUTEeu518O4MRMQJA" sourceItem="_yipIAOUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ykoFAOUTEeu518O4MRMQJA" targetItem="_yk0SQOUTEeu518O4MRMQJA" sourceItem="_ykTU4OUTEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ykwn4OUTEeu518O4MRMQJA" sourceAnchor="167.0,0.0" targetAnchor="156.0,90.0" dashed="true" superClass="_yk0SQOUTEeu518O4MRMQJA" subClass="_yh12wOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQp7sOUTEeu518O4MRMQJA"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhsFwOUTEeu518O4MRMQJA" sourceConnectionVisual="_yhyzcOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_yh12wOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQ7ogOUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yiGVcOUTEeu518O4MRMQJA" sourceConnectionVisual="_yiSisOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_yicTsOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQ7ogeUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yiYpUOUTEeu518O4MRMQJA" sourceConnectionVisual="_yiZQYOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_yjI3QOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQ8PkeUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yiZ3cOUTEeu518O4MRMQJA" sourceConnectionVisual="_yiZ3ceUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_yjn_cOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQ8PkuUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yipIAOUTEeu518O4MRMQJA" sourceConnectionVisual="_yi0uMOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_yi6NwOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQ8PkOUTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ykTU4OUTEeu518O4MRMQJA" sourceConnectionVisual="_ykoFAOUTEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_yk0SQOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQ8Pk-UTEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yh12wOUTEeu518O4MRMQJA" comments="_yhsFwOUTEeu518O4MRMQJA" targetConnectionVisual="_yhyzcOUTEeu518O4MRMQJA" name="IVA" generalizations="_ykwn4OUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xP9_MOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_yh12weUTEeu518O4MRMQJA" position="11.0,146.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yh12wuUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_yh12w-UTEeu518O4MRMQJA" defaultValue="0.19" name="impuestoNormal">
+      <modelElement href="PatronesComportamentales.uml#_xQ2I8OUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_yh12xOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_xQ3XEOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_yh12xeUTEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_yh12xuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_yh12x-UTEeu518O4MRMQJA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yh12yOUTEeu518O4MRMQJA" defaultValue="0.1" name="impuestoDescuento">
+      <modelElement href="PatronesComportamentales.uml#_xQ3XEeUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_yh12yeUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_xQ3-IOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_yh12yuUTEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_yh12y-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_yh12zOUTEeu518O4MRMQJA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yh12zeUTEeu518O4MRMQJA" name="visit">
+      <modelElement href="PatronesComportamentales.uml#_xQqiwOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_yh12zuUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_xQrw4OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yh12z-UTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_xQsX8OUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_yh120OUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yh120eUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yh120uUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_xQrJ0eUTEeu518O4MRMQJA"/>
+        <type xmi:id="_yh120-UTEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yh121OUTEeu518O4MRMQJA" name="normal">
+        <modelElement href="PatronesComportamentales.uml#_xQrJ0OUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_yh121eUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_yh121uUTEeu518O4MRMQJA" name="ProductoNormal">
+          <modelElement href="PatronesComportamentales.uml#_xQHJIOUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yh121-UTEeu518O4MRMQJA" name="visit">
+      <modelElement href="PatronesComportamentales.uml#_xQsX8uUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_yh122OUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_xQtmEOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yh122eUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_xQuNIOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_yh122uUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yh122-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yh123OUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_xQs_AeUTEeu518O4MRMQJA"/>
+        <type xmi:id="_yh123eUTEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yh123uUTEeu518O4MRMQJA" name="descuento">
+        <modelElement href="PatronesComportamentales.uml#_xQs_AOUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_yh123-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_yh124OUTEeu518O4MRMQJA" name="ProductoDescuento">
+          <modelElement href="PatronesComportamentales.uml#_xQFT8OUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_yicTsOUTEeu518O4MRMQJA" comments="_yiGVcOUTEeu518O4MRMQJA" targetConnectionVisual="_yiSisOUTEeu518O4MRMQJA" name="IVisitable" subclassedBy="_yiVmAOUTEeu518O4MRMQJA _yiWNEOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQBCgOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_yicTseUTEeu518O4MRMQJA" position="49.0,338.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yicTsuUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_yicTs-UTEeu518O4MRMQJA" name="accept">
+      <modelElement href="PatronesComportamentales.uml#_xQu0MOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_yicTtOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yicTteUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yicTtuUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_xQu0MuUTEeu518O4MRMQJA"/>
+        <type xmi:id="_yicTt-UTEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yicTuOUTEeu518O4MRMQJA" name="visitor">
+        <modelElement href="PatronesComportamentales.uml#_xQu0MeUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_yicTueUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_yicTuuUTEeu518O4MRMQJA" name="Visitor">
+          <modelElement href="PatronesComportamentales.uml#_xQJlYOUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yi6NwOUTEeu518O4MRMQJA" comments="_yipIAOUTEeu518O4MRMQJA" targetConnectionVisual="_yi0uMOUTEeu518O4MRMQJA" name="Main">
+    <modelElement href="PatronesComportamentales.uml#_xQC3sOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_yi6NweUTEeu518O4MRMQJA" position="18.0,620.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yi6NwuUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_yi6Nw-UTEeu518O4MRMQJA" name="main" staticOperation="true">
+      <modelElement href="PatronesComportamentales.uml#_xQEF0OUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_yi6NxOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yi6NxeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yi6NxuUTEeu518O4MRMQJA" name="args">
+        <modelElement href="PatronesComportamentales.uml#_xQEF0eUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_yi6Nx-UTEeu518O4MRMQJA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_yi6NyOUTEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yjI3QOUTEeu518O4MRMQJA" comments="_yiYpUOUTEeu518O4MRMQJA" targetConnectionVisual="_yiZQYOUTEeu518O4MRMQJA" name="ProductoDescuento" generalizations="_yiVmAOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQFT8OUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_yjI3QeUTEeu518O4MRMQJA" position="12.0,477.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yjI3QuUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_yjI3Q-UTEeu518O4MRMQJA" name="precio">
+      <modelElement href="PatronesComportamentales.uml#_xQ4lMOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_yjI3ROUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yjI3ReUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_yjI3RuUTEeu518O4MRMQJA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yjI3R-UTEeu518O4MRMQJA" name="accept">
+      <modelElement href="PatronesComportamentales.uml#_xQwCUOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_yjI3SOUTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_xQwpYeUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yjI3SeUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_xQxQcOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_yjI3SuUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yjI3S-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yjI3TOUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_xQwpYOUTEeu518O4MRMQJA"/>
+        <type xmi:id="_yjI3TeUTEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yjI3TuUTEeu518O4MRMQJA" name="visitor">
+        <modelElement href="PatronesComportamentales.uml#_xQwCUeUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_yjI3T-UTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_yjI3UOUTEeu518O4MRMQJA" name="Visitor">
+          <modelElement href="PatronesComportamentales.uml#_xQJlYOUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yjn_cOUTEeu518O4MRMQJA" comments="_yiZ3cOUTEeu518O4MRMQJA" targetConnectionVisual="_yiZ3ceUTEeu518O4MRMQJA" name="ProductoNormal" generalizations="_yiWNEOUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQHJIOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_yjomgOUTEeu518O4MRMQJA" position="285.0,464.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yjomgeUTEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_yjomguUTEeu518O4MRMQJA" name="precio">
+      <modelElement href="PatronesComportamentales.uml#_xQ5MQOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_yjomg-UTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yjomhOUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_yjomheUTEeu518O4MRMQJA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yjomhuUTEeu518O4MRMQJA" name="accept">
+      <modelElement href="PatronesComportamentales.uml#_xQyekOUTEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_yjomh-UTEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesComportamentales.uml#_xQzFoOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yjomiOUTEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesComportamentales.uml#_xQzssOUTEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_yjomieUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yjomiuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yjomi-UTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_xQyekuUTEeu518O4MRMQJA"/>
+        <type xmi:id="_yjomjOUTEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yjomjeUTEeu518O4MRMQJA" name="visitor">
+        <modelElement href="PatronesComportamentales.uml#_xQyekeUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_yjomjuUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_yjomj-UTEeu518O4MRMQJA" name="Visitor">
+          <modelElement href="PatronesComportamentales.uml#_xQJlYOUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_yk0SQOUTEeu518O4MRMQJA" comments="_ykTU4OUTEeu518O4MRMQJA" targetConnectionVisual="_ykoFAOUTEeu518O4MRMQJA" name="Visitor" subclassedBy="_ykwn4OUTEeu518O4MRMQJA">
+    <modelElement href="PatronesComportamentales.uml#_xQJlYOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_yk0SQeUTEeu518O4MRMQJA" position="22.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yk0SQuUTEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_yk0SQ-UTEeu518O4MRMQJA" name="visit">
+      <modelElement href="PatronesComportamentales.uml#_xQ0TwOUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_yk0SROUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yk0SReUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yk0SRuUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_xQ0TwuUTEeu518O4MRMQJA"/>
+        <type xmi:id="_yk0SR-UTEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yk0SSOUTEeu518O4MRMQJA" name="normal">
+        <modelElement href="PatronesComportamentales.uml#_xQ0TweUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_yk0SSeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_yk0SSuUTEeu518O4MRMQJA" name="ProductoNormal">
+          <modelElement href="PatronesComportamentales.uml#_xQHJIOUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yk0SS-UTEeu518O4MRMQJA" name="visit">
+      <modelElement href="PatronesComportamentales.uml#_xQ060OUTEeu518O4MRMQJA"/>
+      <visibility xmi:id="_yk0STOUTEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_yk0STeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yk0STuUTEeu518O4MRMQJA">
+        <modelElement href="PatronesComportamentales.uml#_xQ1h4OUTEeu518O4MRMQJA"/>
+        <type xmi:id="_yk0ST-UTEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yk0SUOUTEeu518O4MRMQJA" name="descuento">
+        <modelElement href="PatronesComportamentales.uml#_xQ060eUTEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_yk0SUeUTEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_yk0SUuUTEeu518O4MRMQJA" name="ProductoDescuento">
+          <modelElement href="PatronesComportamentales.uml#_xQFT8OUTEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

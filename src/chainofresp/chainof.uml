@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_MlbDkORHEeuh0NLm_Ji1gA" name="chainof">
+    <eAnnotations xmi:id="_MzbDUORHEeuh0NLm_Ji1gA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_MzcRcORHEeuh0NLm_Ji1gA" source="codegen">
+        <details xmi:id="_MzcRceRHEeuh0NLm_Ji1gA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_NDffoORHEeuh0NLm_Ji1gA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/chainofresp/Banco.java;237732164/1;/PatronesComportamentales/src/chainofresp/Director.java;3947555409/1;/PatronesComportamentales/src/chainofresp/EjecutivoCuenta.java;3898140097/1;/PatronesComportamentales/src/chainofresp/Gerente.java;3229396049/1;/PatronesComportamentales/src/chainofresp/IAprobador.java;650330812/1;/PatronesComportamentales/src/chainofresp/LiderEquipoEjecutivo.java;1606243544/1;/PatronesComportamentales/src/chainofresp/Main.java;1674992731/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_M7CHMORHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_M7CHMeRHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_M7CuQORHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_M7CuQeRHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_M7CuQuRHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_M7CuQ-RHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_M7CuRORHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_M7CuReRHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_M7DVUORHEeuh0NLm_Ji1gA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_M7GYoORHEeuh0NLm_Ji1gA" name="chainofresp">
+      <packagedElement xmi:type="uml:Class" xmi:id="_M7nWAORHEeuh0NLm_Ji1gA" name="Banco">
+        <ownedComment xmi:id="_M-C-8ORHEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_M9xSIORHEeuh0NLm_Ji1gA" name="siguiente" visibility="package" type="_M8HFQORHEeuh0NLm_Ji1gA" association="_M-IegORHEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_M9e-QORHEeuh0NLm_Ji1gA" client="_M7nWAORHEeuh0NLm_Ji1gA" supplier="_M8HFQORHEeuh0NLm_Ji1gA" contract="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M97DIORHEeuh0NLm_Ji1gA" name="setSiguiente" specification="_M9gMYORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M97DIeRHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+          <language>java</language>
+          <body>siguiente=aprobador;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M98RQORHEeuh0NLm_Ji1gA" name="getSiguiente" specification="_M7pLMORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M98RQeRHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return siguiente;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M99fYORHEeuh0NLm_Ji1gA" name="solicitarPrestamo" specification="_M7rncORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M99fYeRHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EjecutivoCuenta ejecutivoCuenta = new EjecutivoCuenta();&#xD;
+     this.setSiguiente(ejecutivoCuenta);&#xD;
+     &#xD;
+     LiderEquipoEjecutivo liderEquipoEjecutivo = new LiderEquipoEjecutivo();&#xD;
+     ejecutivoCuenta.setSiguiente(liderEquipoEjecutivo);&#xD;
+     &#xD;
+     Gerente gerente = new Gerente();&#xD;
+     liderEquipoEjecutivo.setSiguiente(gerente);&#xD;
+     &#xD;
+     Director director = new Director();&#xD;
+     gerente.setSiguiente(director);&#xD;
+     &#xD;
+     siguiente.solicitarPrestamo(cantidad);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_M7pLMORHEeuh0NLm_Ji1gA" name="getSiguiente" method="_M98RQORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9iBkeRHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M7rncORHEeuh0NLm_Ji1gA" name="solicitarPrestamo" method="_M99fYORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M7rnceRHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M9gMYORHEeuh0NLm_Ji1gA" name="setSiguiente" method="_M97DIORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9gMYeRHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_M7wf8ORHEeuh0NLm_Ji1gA" name="Director">
+        <ownedComment xmi:id="_M-C-8eRHEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_M9ygQORHEeuh0NLm_Ji1gA" name="siguiente" visibility="package" type="_M8HFQORHEeuh0NLm_Ji1gA" association="_M-KTsORHEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_M9iooORHEeuh0NLm_Ji1gA" client="_M7wf8ORHEeuh0NLm_Ji1gA" supplier="_M8HFQORHEeuh0NLm_Ji1gA" contract="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M9-GcORHEeuh0NLm_Ji1gA" name="getSiguiente" specification="_M7yVIORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9-GceRHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return siguiente;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M9-tgORHEeuh0NLm_Ji1gA" name="solicitarPrestamo" specification="_M70KUORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9-tgeRHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(cantidad>100000){&#xD;
+         System.out.println(&quot;Lo manejo YO el Director&quot;);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_M7yVIORHEeuh0NLm_Ji1gA" name="getSiguiente" method="_M9-GcORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9lr8ORHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M70KUORHEeuh0NLm_Ji1gA" name="solicitarPrestamo" method="_M9-tgORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M70xYORHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M9j2wORHEeuh0NLm_Ji1gA" name="setSiguiente">
+          <ownedParameter xmi:id="_M9j2weRHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_M74bwORHEeuh0NLm_Ji1gA" name="EjecutivoCuenta">
+        <ownedComment xmi:id="_M-C-8uRHEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_M90VcORHEeuh0NLm_Ji1gA" name="siguiente" type="_M8HFQORHEeuh0NLm_Ji1gA" association="_M-Lh0ORHEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_M9mTAORHEeuh0NLm_Ji1gA" client="_M74bwORHEeuh0NLm_Ji1gA" supplier="_M8HFQORHEeuh0NLm_Ji1gA" contract="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M9_7ouRHEeuh0NLm_Ji1gA" name="solicitarPrestamo" specification="_M76Q8ORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9_7o-RHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(cantidad&lt;10000){&#xD;
+         System.out.println(&quot;Lo manejo YO El Aprobador de Cuentas&quot;);&#xD;
+     }&#xD;
+     else{&#xD;
+         siguiente.solicitarPrestamo(cantidad);&#xD;
+     }&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_M76Q8ORHEeuh0NLm_Ji1gA" name="solicitarPrestamo" method="_M9_7ouRHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M76Q8eRHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_M7_JcORHEeuh0NLm_Ji1gA" name="Gerente">
+        <ownedComment xmi:id="_M-DmAORHEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_M93_0ORHEeuh0NLm_Ji1gA" name="siguiente" visibility="package" type="_M8HFQORHEeuh0NLm_Ji1gA" association="_M-Mv8ORHEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_M9oIMORHEeuh0NLm_Ji1gA" client="_M7_JcORHEeuh0NLm_Ji1gA" supplier="_M8HFQORHEeuh0NLm_Ji1gA" contract="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M-AisORHEeuh0NLm_Ji1gA" name="setSiguiente" specification="_M9pWUORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M-AiseRHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+          <language>java</language>
+          <body>siguiente=aprobador;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M-AisuRHEeuh0NLm_Ji1gA" name="getSiguiente" specification="_M8A-oORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M-Ais-RHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return siguiente;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M-BJwORHEeuh0NLm_Ji1gA" name="solicitarPrestamo" specification="_M8Da4ORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M-BJweRHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(cantidad>50000 &amp;&amp;cantidad&lt;=100000){&#xD;
+         System.out.println(&quot;Lo manejo YO el Gerente&quot;);&#xD;
+     }&#xD;
+     else{&#xD;
+         siguiente.solicitarPrestamo(cantidad);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_M8A-oORHEeuh0NLm_Ji1gA" name="getSiguiente" method="_M-AisuRHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9rLgORHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M8Da4ORHEeuh0NLm_Ji1gA" name="solicitarPrestamo" method="_M-BJwORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M8Da4eRHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M9pWUORHEeuh0NLm_Ji1gA" name="setSiguiente" method="_M-AisORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9pWUeRHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_M8HFQORHEeuh0NLm_Ji1gA" name="IAprobador">
+        <ownedComment xmi:id="_M-DmAeRHEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_M8ITYORHEeuh0NLm_Ji1gA" name="siguiente" type="_M8HFQORHEeuh0NLm_Ji1gA" association="_M-ENEORHEeuh0NLm_Ji1gA"/>
+        <ownedOperation xmi:id="_M8KIkORHEeuh0NLm_Ji1gA" name="solicitarPrestamo">
+          <ownedParameter xmi:id="_M8LWsORHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_M8Mk0ORHEeuh0NLm_Ji1gA" name="LiderEquipoEjecutivo">
+        <ownedComment xmi:id="_M-E0IeRHEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_M95N8ORHEeuh0NLm_Ji1gA" name="siguiente" visibility="package" type="_M8HFQORHEeuh0NLm_Ji1gA" association="_M-NXAeRHEeuh0NLm_Ji1gA"/>
+        <interfaceRealization xmi:id="_M9rykORHEeuh0NLm_Ji1gA" client="_M8Mk0ORHEeuh0NLm_Ji1gA" supplier="_M8HFQORHEeuh0NLm_Ji1gA" contract="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M-BJwuRHEeuh0NLm_Ji1gA" name="setSiguiente" specification="_M9sZoORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M-Bw0ORHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+          <language>java</language>
+          <body>siguiente=aprobador;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M-Bw0eRHEeuh0NLm_Ji1gA" name="getSiguiente" specification="_M8Ny8ORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M-Bw0uRHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+          <language>java</language>
+          <body>return siguiente;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M-Bw0-RHEeuh0NLm_Ji1gA" name="solicitarPrestamo" specification="_M8QPMORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M-Bw1ORHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(cantidad>10000 &amp;&amp;cantidad&lt;=50000){&#xD;
+         System.out.println(&quot;Lo manejo YO el Lider Del Equipo Ejecutivo&quot;);&#xD;
+     }&#xD;
+     else{&#xD;
+         siguiente.solicitarPrestamo(cantidad);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_M8Ny8ORHEeuh0NLm_Ji1gA" name="getSiguiente" method="_M-Bw0eRHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9uO0uRHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M8QPMORHEeuh0NLm_Ji1gA" name="solicitarPrestamo" method="_M-Bw0-RHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M8QPMeRHEeuh0NLm_Ji1gA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_M9sZoORHEeuh0NLm_Ji1gA" name="setSiguiente" method="_M-BJwuRHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M9tAsORHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_M8UgoORHEeuh0NLm_Ji1gA" name="Main">
+        <ownedComment xmi:id="_M-E0IuRHEeuh0NLm_Ji1gA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_M-CX4ORHEeuh0NLm_Ji1gA" name="main" specification="_M8WV0ORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M-CX4eRHEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M-CX4uRHEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Banco banco = new Banco();&#xD;
+     banco.solicitarPrestamo(100000);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_M8WV0ORHEeuh0NLm_Ji1gA" name="main" isStatic="true" method="_M-CX4ORHEeuh0NLm_Ji1gA">
+          <ownedParameter xmi:id="_M8WV0eRHEeuh0NLm_Ji1gA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M8W84ORHEeuh0NLm_Ji1gA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_M-ENEORHEeuh0NLm_Ji1gA" name="" memberEnd="_M8ITYORHEeuh0NLm_Ji1gA _M-E0IORHEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_M-E0IORHEeuh0NLm_Ji1gA" name="" type="_M8HFQORHEeuh0NLm_Ji1gA" association="_M-ENEORHEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_M-IegORHEeuh0NLm_Ji1gA" name="" memberEnd="_M-IegeRHEeuh0NLm_Ji1gA _M9xSIORHEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_M-IegeRHEeuh0NLm_Ji1gA" name="" type="_M7nWAORHEeuh0NLm_Ji1gA" association="_M-IegORHEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_M-KTsORHEeuh0NLm_Ji1gA" name="" memberEnd="_M-KTseRHEeuh0NLm_Ji1gA _M9ygQORHEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_M-KTseRHEeuh0NLm_Ji1gA" name="" type="_M7wf8ORHEeuh0NLm_Ji1gA" association="_M-KTsORHEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_M-Lh0ORHEeuh0NLm_Ji1gA" name="" memberEnd="_M-Lh0eRHEeuh0NLm_Ji1gA _M90VcORHEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_M-Lh0eRHEeuh0NLm_Ji1gA" name="" type="_M74bwORHEeuh0NLm_Ji1gA" association="_M-Lh0ORHEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_M-Mv8ORHEeuh0NLm_Ji1gA" name="" memberEnd="_M-Mv8eRHEeuh0NLm_Ji1gA _M93_0ORHEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_M-Mv8eRHEeuh0NLm_Ji1gA" name="" type="_M7_JcORHEeuh0NLm_Ji1gA" association="_M-Mv8ORHEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_M-NXAeRHEeuh0NLm_Ji1gA" name="" memberEnd="_M-NXAuRHEeuh0NLm_Ji1gA _M95N8ORHEeuh0NLm_Ji1gA">
+        <ownedEnd xmi:id="_M-NXAuRHEeuh0NLm_Ji1gA" name="" type="_M8Mk0ORHEeuh0NLm_Ji1gA" association="_M-NXAeRHEeuh0NLm_Ji1gA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_M0nWIORHEeuh0NLm_Ji1gA">
+      <eAnnotations xmi:id="_M0n9MORHEeuh0NLm_Ji1gA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_M0okQORHEeuh0NLm_Ji1gA" base_Package="_MlbDkORHEeuh0NLm_Ji1gA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M7pyQORHEeuh0NLm_Ji1gA" base_Element="_M7pLMORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M7rAYORHEeuh0NLm_Ji1gA" base_Element="_M7pLMORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M7rAYeRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M7sOgORHEeuh0NLm_Ji1gA" base_Element="_M7rncORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M7s1kORHEeuh0NLm_Ji1gA" base_Element="_M7rncORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M7tcoORHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M7y8MORHEeuh0NLm_Ji1gA" base_Element="_M7yVIORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M7zjQORHEeuh0NLm_Ji1gA" base_Element="_M7yVIORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M7zjQeRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M71YcORHEeuh0NLm_Ji1gA" base_Element="_M70KUORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M71_gORHEeuh0NLm_Ji1gA" base_Element="_M70KUORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M71_geRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M764AORHEeuh0NLm_Ji1gA" base_Element="_M76Q8ORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M77fEORHEeuh0NLm_Ji1gA" base_Element="_M76Q8ORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M78GIORHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M8BlsORHEeuh0NLm_Ji1gA" base_Element="_M8A-oORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M8Cz0ORHEeuh0NLm_Ji1gA" base_Element="_M8A-oORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M8Cz0eRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M8EB8ORHEeuh0NLm_Ji1gA" base_Element="_M8Da4ORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M8EpAORHEeuh0NLm_Ji1gA" base_Element="_M8Da4ORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M8EpAeRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M8OaAORHEeuh0NLm_Ji1gA" base_Element="_M8Ny8ORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M8PBEORHEeuh0NLm_Ji1gA" base_Element="_M8Ny8ORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M8PoIORHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M8Q2QORHEeuh0NLm_Ji1gA" base_Element="_M8QPMORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M8RdUORHEeuh0NLm_Ji1gA" base_Element="_M8QPMORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M8SEYORHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M9gzcORHEeuh0NLm_Ji1gA" base_Element="_M9gMYORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M9hagORHEeuh0NLm_Ji1gA" base_Element="_M9gMYORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M9iBkORHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M9kd0ORHEeuh0NLm_Ji1gA" base_Element="_M9j2wORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M9lE4ORHEeuh0NLm_Ji1gA" base_Element="_M9j2wORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M9lE4eRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M9p9YORHEeuh0NLm_Ji1gA" base_Element="_M9pWUORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M9qkcORHEeuh0NLm_Ji1gA" base_Element="_M9pWUORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M9qkceRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M9tnwORHEeuh0NLm_Ji1gA" base_Element="_M9sZoORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Annotations xmi:id="_M9uO0ORHEeuh0NLm_Ji1gA" base_Element="_M9sZoORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M9uO0eRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M9x5MORHEeuh0NLm_Ji1gA" base_Element="_M9xSIORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M9zHUORHEeuh0NLm_Ji1gA" base_Element="_M9ygQORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M908gORHEeuh0NLm_Ji1gA" base_Element="_M90VcORHEeuh0NLm_Ji1gA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_M91jkORHEeuh0NLm_Ji1gA" name="getSiguiente" method="_M9_UkORHEeuh0NLm_Ji1gA">
+      <ownedParameter xmi:id="_M92KoORHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_M91jkeRHEeuh0NLm_Ji1gA" name="setSiguiente" method="_M9_7oORHEeuh0NLm_Ji1gA">
+      <ownedParameter xmi:id="_M91jkuRHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_M92xsORHEeuh0NLm_Ji1gA" base_Element="_M91jkORHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M92xseRHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_M92xsuRHEeuh0NLm_Ji1gA" base_Element="_M91jkeRHEeuh0NLm_Ji1gA">
+    <annotations xmi:id="_M93YwORHEeuh0NLm_Ji1gA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M94m4ORHEeuh0NLm_Ji1gA" base_Element="_M93_0ORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_M951AORHEeuh0NLm_Ji1gA" base_Element="_M95N8ORHEeuh0NLm_Ji1gA"/>
+  <uml:OpaqueBehavior xmi:id="_M9_UkORHEeuh0NLm_Ji1gA" name="getSiguiente" specification="_M91jkORHEeuh0NLm_Ji1gA">
+    <ownedParameter xmi:id="_M9_UkeRHEeuh0NLm_Ji1gA" type="_M8HFQORHEeuh0NLm_Ji1gA" direction="return"/>
+    <language>java</language>
+    <body>return siguiente;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_M9_7oORHEeuh0NLm_Ji1gA" name="setSiguiente" specification="_M91jkeRHEeuh0NLm_Ji1gA">
+    <ownedParameter xmi:id="_M9_7oeRHEeuh0NLm_Ji1gA" name="aprobador" type="_M8HFQORHEeuh0NLm_Ji1gA"/>
+    <language>java</language>
+    <body>siguiente=aprobador;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_M-JsoORHEeuh0NLm_Ji1gA" base_Element="_M-IegORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_M-K6wORHEeuh0NLm_Ji1gA" base_Element="_M-KTsORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_M-MI4ORHEeuh0NLm_Ji1gA" base_Element="_M-Lh0ORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_M-NXAORHEeuh0NLm_Ji1gA" base_Element="_M-Mv8ORHEeuh0NLm_Ji1gA"/>
+  <UMLLabProfile:Reference xmi:id="_M-N-EORHEeuh0NLm_Ji1gA" base_Element="_M-NXAeRHEeuh0NLm_Ji1gA"/>
+</xmi:XMI>

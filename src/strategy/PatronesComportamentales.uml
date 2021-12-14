@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_m4q0MOUTEeu518O4MRMQJA" name="PatronesComportamentales">
+    <eAnnotations xmi:id="_nGX5AOUTEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_nGX5AeUTEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_nGX5AuUTEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_nTXMIOUTEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/strategy/NoPuedeVolar.java;612694461/1;/PatronesComportamentales/src/strategy/Ave.java;1780776270/1;/PatronesComportamentales/src/strategy/IVolar.java;1864682804/1;/PatronesComportamentales/src/strategy/Animal.java;2750038182/1;/PatronesComportamentales/src/strategy/Perro.java;528390/1;/PatronesComportamentales/src/strategy/PruebaStrategy.java;3807978781/1;/PatronesComportamentales/src/strategy/PuedeVolar.java;3258742268/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_nNLroOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_nNMSsOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_nNMSseUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_nNMSsuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_nNMSs-UTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_nNMStOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_nNM5wOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_nNM5weUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_nNNg0OUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nNPWAOUTEeu518O4MRMQJA" name="strategy">
+      <packagedElement xmi:type="uml:Class" xmi:id="_nNgbwOUTEeu518O4MRMQJA" name="NoPuedeVolar">
+        <ownedComment xmi:id="_nOujwOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_nOhIYOUTEeu518O4MRMQJA" client="_nNgbwOUTEeu518O4MRMQJA" supplier="_nNmiYOUTEeu518O4MRMQJA" contract="_nNmiYOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOq5YOUTEeu518O4MRMQJA" name="volar" specification="_nNhp4OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOq5YeUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Soy un animal que no puede volar&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_nNhp4OUTEeu518O4MRMQJA" name="volar" method="_nOq5YOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nNiQ8OUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nNkGIOUTEeu518O4MRMQJA" name="Ave">
+        <ownedComment xmi:id="_nOujweUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_nOhvcOUTEeu518O4MRMQJA" general="_nNoXkOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOrgcOUTEeu518O4MRMQJA" name="Ave" specification="_nNlUQOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOrgceUTEeu518O4MRMQJA" type="_nNkGIOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+     setSonido(&quot;Trina&quot;);&#xD;
+     tipoVolar=new PuedeVolar();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_nNlUQOUTEeu518O4MRMQJA" name="Ave" method="_nOrgcOUTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_nNlUQeUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_nNl7UOUTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_nNl7UeUTEeu518O4MRMQJA" type="_nNkGIOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_nNmiYOUTEeu518O4MRMQJA" name="IVolar">
+        <ownedComment xmi:id="_nOvK0OUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_nNnJcOUTEeu518O4MRMQJA" name="volar">
+          <ownedParameter xmi:id="_nNnwgOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nNoXkOUTEeu518O4MRMQJA" name="Animal">
+        <ownedComment xmi:id="_nOvx4OUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_nOnPAOUTEeu518O4MRMQJA" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_nOn2EOUTEeu518O4MRMQJA" name="edad" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_nOodIOUTEeu518O4MRMQJA" name="velocidad" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_nOpEMOUTEeu518O4MRMQJA" name="sonido">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_nOprQOUTEeu518O4MRMQJA" name="tipoVolar" visibility="protected" type="_nNmiYOUTEeu518O4MRMQJA" association="_nOyOIOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOsHgOUTEeu518O4MRMQJA" name="setEdad" specification="_nNqMwOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOsHgeUTEeu518O4MRMQJA" name="edad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(edad > 0){&#xD;
+         this.edad = edad;&#xD;
+     }else{&#xD;
+         System.out.println(&quot;Error!! La edad debe ser positiva&quot;);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOsHguUTEeu518O4MRMQJA" name="setVelocidad" specification="_nNqz0OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOsHg-UTEeu518O4MRMQJA" name="velocidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(velocidad > 0){&#xD;
+         this.velocidad = velocidad;&#xD;
+     }else{&#xD;
+         System.out.println(&quot;Error!! La velocidad debe ser positiva&quot;);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOsHhOUTEeu518O4MRMQJA" name="trataDeVolar" specification="_nNra4OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOsHheUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return tipoVolar.volar();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOsukOUTEeu518O4MRMQJA" name="setHabilidadVolar" specification="_nOi9kOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOsukeUTEeu518O4MRMQJA" name="tipo" type="_nNmiYOUTEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>tipoVolar=tipo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_nNqMwOUTEeu518O4MRMQJA" name="setEdad" method="_nOsHgOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nNqMweUTEeu518O4MRMQJA" name="edad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_nNqz0OUTEeu518O4MRMQJA" name="setVelocidad" method="_nOsHguUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nNqz0eUTEeu518O4MRMQJA" name="velocidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_nNra4OUTEeu518O4MRMQJA" name="trataDeVolar" method="_nOsHhOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nNra4eUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_nOi9kOUTEeu518O4MRMQJA" name="setHabilidadVolar" method="_nOsukOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOi9keUTEeu518O4MRMQJA" name="tipo" type="_nNmiYOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nNvFQOUTEeu518O4MRMQJA" name="Perro">
+        <ownedComment xmi:id="_nOvx4eUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_nOkywOUTEeu518O4MRMQJA" general="_nNoXkOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOtVoOUTEeu518O4MRMQJA" name="Perro" specification="_nNwTYOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOtVoeUTEeu518O4MRMQJA" type="_nNvFQOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>super();&#xD;
+     setSonido(&quot;Ladrar&quot;);&#xD;
+     tipoVolar= new NoPuedeVolar();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOtVouUTEeu518O4MRMQJA" name="escarbar" specification="_nNwTZOUTEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Estoy cavando un hoyo&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_nNwTYOUTEeu518O4MRMQJA" name="Perro" method="_nOtVoOUTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_nNwTYeUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_nNwTYuUTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_nNwTY-UTEeu518O4MRMQJA" type="_nNvFQOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_nNwTZOUTEeu518O4MRMQJA" name="escarbar" method="_nOtVouUTEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nNw6cOUTEeu518O4MRMQJA" name="PruebaStrategy">
+        <ownedComment xmi:id="_nOwY8OUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOt8sOUTEeu518O4MRMQJA" name="main" specification="_nNyIkOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOt8seUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nOt8suUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Animal nico = new Perro();&#xD;
+     Animal paca = new Ave();&#xD;
+     &#xD;
+     System.out.println(&quot;Perro &quot;+nico.trataDeVolar());&#xD;
+     System.out.println(&quot;Ave &quot;+paca.trataDeVolar());&#xD;
+     &#xD;
+     //Permite cambios dinamicos en el estado de un obj&#xD;
+     &#xD;
+     nico.setHabilidadVolar(new PuedeVolar());&#xD;
+     System.out.println(&quot;Perro: &quot;+nico.trataDeVolar());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_nNyIkOUTEeu518O4MRMQJA" name="main" isStatic="true" method="_nOt8sOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nNyIkeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nNyvoOUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_nNzWsOUTEeu518O4MRMQJA" name="PuedeVolar">
+        <ownedComment xmi:id="_nOwY8eUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_nOlZ0OUTEeu518O4MRMQJA" client="_nNzWsOUTEeu518O4MRMQJA" supplier="_nNmiYOUTEeu518O4MRMQJA" contract="_nNmiYOUTEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nOt8s-UTEeu518O4MRMQJA" name="volar" specification="_nNz9wOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nOt8tOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Soy un animal que puede Volar&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_nNz9wOUTEeu518O4MRMQJA" name="volar" method="_nOt8s-UTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_nNz9weUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_nOyOIOUTEeu518O4MRMQJA" name="" memberEnd="_nOyOIeUTEeu518O4MRMQJA _nOprQOUTEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_nOyOIeUTEeu518O4MRMQJA" name="" type="_nNoXkOUTEeu518O4MRMQJA" association="_nOyOIOUTEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_nHdeIOUTEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_nHdeIeUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_nHeFMOUTEeu518O4MRMQJA" base_Package="_m4q0MOUTEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nNi4AOUTEeu518O4MRMQJA" base_Element="_nNhp4OUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_nNjfEOUTEeu518O4MRMQJA" base_Element="_nNhp4OUTEeu518O4MRMQJA">
+    <annotations xmi:id="_nNjfEeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nN0k0OUTEeu518O4MRMQJA" base_Element="_nNz9wOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_nN1L4OUTEeu518O4MRMQJA" base_Element="_nNz9wOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_nN1L4eUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nOqSUOUTEeu518O4MRMQJA" base_Element="_nOprQOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_nOzcQOUTEeu518O4MRMQJA" base_Element="_nOyOIOUTEeu518O4MRMQJA"/>
+</xmi:XMI>

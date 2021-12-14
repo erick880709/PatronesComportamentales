@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_sIyqAOUTEeu518O4MRMQJA" name="PatronesComportamentales">
+    <eAnnotations xmi:id="_sUlqUOUTEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_sUmRYOUTEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_sUmRYeUTEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_sjbXkOUTEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/templatemethod/Cliente.java;1429725065/1;/PatronesComportamentales/src/templatemethod/Empleado.java;2305432256/1;/PatronesComportamentales/src/templatemethod/Main.java;2460356829/1;/PatronesComportamentales/src/templatemethod/Persona.java;611507095/1;/PatronesComportamentales/src/templatemethod/Socio.java;492908024/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_se-8cOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_se_jgOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_se_jgeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_se_jguUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_se_jg-UTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_se_jhOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_se_jheUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_se_jhuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_sfAKkOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_sfB_wOUTEeu518O4MRMQJA" name="templatemethod">
+      <packagedElement xmi:type="uml:Class" xmi:id="_sfX-AOUTEeu518O4MRMQJA" name="Cliente">
+        <ownedComment xmi:id="_sgTyIOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sgFIoOUTEeu518O4MRMQJA" general="_sfmAceUTEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_sgKoMOUTEeu518O4MRMQJA" name="numeroCliente">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgPgsOUTEeu518O4MRMQJA" name="Cliente" specification="_sfZMIOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgPgseUTEeu518O4MRMQJA" name="numeroCliente">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sgPgsuUTEeu518O4MRMQJA" type="_sfX-AOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.numeroCliente = numeroCliente;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgPgs-UTEeu518O4MRMQJA" name="getTipoID" specification="_sfaaQOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgPgtOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Numero de Cliente&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgQHwOUTEeu518O4MRMQJA" name="getIdentificacion" specification="_sfboYuUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgQHweUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return String.valueOf(numeroCliente);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sfZMIOUTEeu518O4MRMQJA" name="Cliente" method="_sgPgsOUTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_sfZzMOUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sfZzMeUTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sfZMIeUTEeu518O4MRMQJA" name="numeroCliente">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sfZzMuUTEeu518O4MRMQJA" type="_sfX-AOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sfaaQOUTEeu518O4MRMQJA" name="getTipoID" method="_sgPgs-UTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sfaaQeUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sfboYuUTEeu518O4MRMQJA" name="getIdentificacion" method="_sgQHwOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sfcPcOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sfeEoOUTEeu518O4MRMQJA" name="Empleado">
+        <ownedComment xmi:id="_sgTyIeUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sgGWwOUTEeu518O4MRMQJA" general="_sfmAceUTEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_sgLPQOUTEeu518O4MRMQJA" name="expediente">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgQu0OUTEeu518O4MRMQJA" name="Empleado" specification="_sffSwOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgQu0eUTEeu518O4MRMQJA" name="expediente">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sgQu0uUTEeu518O4MRMQJA" type="_sfeEoOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.expediente = expediente;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgQu0-UTEeu518O4MRMQJA" name="getTipoID" specification="_sff50uUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgQu1OUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Expediente del Empleado&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgQu1eUTEeu518O4MRMQJA" name="getIdentificacion" specification="_sfhvAOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgQu1uUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return expediente;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sffSwOUTEeu518O4MRMQJA" name="Empleado" method="_sgQu0OUTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_sffSwuUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sff50OUTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sffSweUTEeu518O4MRMQJA" name="expediente">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sff50eUTEeu518O4MRMQJA" type="_sfeEoOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sff50uUTEeu518O4MRMQJA" name="getTipoID" method="_sgQu0-UTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sfgg4OUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sfhvAOUTEeu518O4MRMQJA" name="getIdentificacion" method="_sgQu1eUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sfhvAeUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sfkyUOUTEeu518O4MRMQJA" name="Main">
+        <ownedComment xmi:id="_sgTyIuUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgRV4OUTEeu518O4MRMQJA" name="main" specification="_sflZYOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgRV4eUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sgRV4uUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Persona p = new Cliente(12345);&#xD;
+     System.out.println(&quot;El cliente se identifica: &quot;+p.indentificarse());&#xD;
+     &#xD;
+     p = new Empleado(&quot;Carpeta del Expediente NÃºmero 9876&quot;);&#xD;
+     System.out.println(&quot;El empleado se identifica: &quot;+p.indentificarse());&#xD;
+     &#xD;
+     p = new Socio(87654);&#xD;
+     System.out.println(&quot;El socio se identifica: &quot;+p.indentificarse());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sflZYOUTEeu518O4MRMQJA" name="main" isStatic="true" method="_sgRV4OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sflZYeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sfmAcOUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sfmAceUTEeu518O4MRMQJA" name="Persona" isAbstract="true">
+        <ownedComment xmi:id="_sgUZMOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_sgMdYOUTEeu518O4MRMQJA" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_sgMdYeUTEeu518O4MRMQJA" name="Id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgR88OUTEeu518O4MRMQJA" name="indentificarse" specification="_sfnOkOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgR88eUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Me identifico con: &quot;+ getTipoID()+&quot; NÃºmero: &quot;+getIdentificacion();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sfnOkOUTEeu518O4MRMQJA" name="indentificarse" method="_sgR88OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sfnOkeUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sfn1oOUTEeu518O4MRMQJA" name="getTipoID" isAbstract="true">
+          <ownedParameter xmi:id="_sfn1oeUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sfn1ouUTEeu518O4MRMQJA" name="getIdentificacion" isAbstract="true">
+          <ownedParameter xmi:id="_sfocsOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sfpDwOUTEeu518O4MRMQJA" name="Socio">
+        <ownedComment xmi:id="_sgUZMeUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_sgHk4OUTEeu518O4MRMQJA" general="_sfmAceUTEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_sgNrgOUTEeu518O4MRMQJA" name="numeroSocio">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgSkAOUTEeu518O4MRMQJA" name="Socio" specification="_sfqR4OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgSkAeUTEeu518O4MRMQJA" name="numeroSocio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sgSkAuUTEeu518O4MRMQJA" type="_sfpDwOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.numeroSocio = numeroSocio;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgSkA-UTEeu518O4MRMQJA" name="getTipoID" specification="_sfq48OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgSkBOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Numero de Socio&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_sgSkBeUTEeu518O4MRMQJA" name="getIdentificacion" specification="_sfsHEeUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sgSkBuUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return String.valueOf(numeroSocio);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_sfqR4OUTEeu518O4MRMQJA" name="Socio" method="_sgSkAOUTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_sfqR4uUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_sfqR4-UTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_sfqR4eUTEeu518O4MRMQJA" name="numeroSocio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_sfqR5OUTEeu518O4MRMQJA" type="_sfpDwOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sfq48OUTEeu518O4MRMQJA" name="getTipoID" method="_sgSkA-UTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sfq48eUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sfsHEeUTEeu518O4MRMQJA" name="getIdentificacion" method="_sgSkBeUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_sfsuIOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_sYWI8OUTEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_sYWI8eUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_sYWwAOUTEeu518O4MRMQJA" base_Package="_sIyqAOUTEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sfbBUOUTEeu518O4MRMQJA" base_Element="_sfaaQOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_sfboYOUTEeu518O4MRMQJA" base_Element="_sfaaQOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_sfboYeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sfcPceUTEeu518O4MRMQJA" base_Element="_sfboYuUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_sfc2gOUTEeu518O4MRMQJA" base_Element="_sfboYuUTEeu518O4MRMQJA">
+    <annotations xmi:id="_sfc2geUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sfhH8OUTEeu518O4MRMQJA" base_Element="_sff50uUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_sfhH8eUTEeu518O4MRMQJA" base_Element="_sff50uUTEeu518O4MRMQJA">
+    <annotations xmi:id="_sfhH8uUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sfiWEOUTEeu518O4MRMQJA" base_Element="_sfhvAOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_sfi9IOUTEeu518O4MRMQJA" base_Element="_sfhvAOUTEeu518O4MRMQJA">
+    <annotations xmi:id="_sfi9IeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sfrgAOUTEeu518O4MRMQJA" base_Element="_sfq48OUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_sfrgAeUTEeu518O4MRMQJA" base_Element="_sfq48OUTEeu518O4MRMQJA">
+    <annotations xmi:id="_sfsHEOUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_sftVMOUTEeu518O4MRMQJA" base_Element="_sfsHEeUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_sft8QOUTEeu518O4MRMQJA" base_Element="_sfsHEeUTEeu518O4MRMQJA">
+    <annotations xmi:id="_sft8QeUTEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>

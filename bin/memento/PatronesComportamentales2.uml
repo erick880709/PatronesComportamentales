@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_HCfs0OUTEeu518O4MRMQJA" name="PatronesComportamentales2">
+    <eAnnotations xmi:id="_HO0RkOUTEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_HO0RkeUTEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_HO1fsOUTEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesComportamentales/src"/>
+        <details xmi:id="_IWj8wOUTEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesComportamentales/src/memento/CareTaker.java;390449659/1;/PatronesComportamentales/src/memento/Main.java;1340337573/1;/PatronesComportamentales/src/memento/Memento.java;2480249844/1;/PatronesComportamentales/src/memento/Persona.java;2272956477/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_HgnzQOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_HgoaUOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_HgoaUeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_HgoaUuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_HgoaU-UTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_HgpBYOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_HgpBYeUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_HgpBYuUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_HgqPgOUTEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_HgvIAOUTEeu518O4MRMQJA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_HgvvEOUTEeu518O4MRMQJA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_H0i00OUTEeu518O4MRMQJA" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Hg3D0OUTEeu518O4MRMQJA" name="memento">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Hheu4OUTEeu518O4MRMQJA" name="CareTaker">
+        <ownedComment xmi:id="_H1U38OUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_H0yFYOUTEeu518O4MRMQJA" name="estados" visibility="private" type="_H0i00OUTEeu518O4MRMQJA" association="_H1czwOUTEeu518O4MRMQJA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_H0294OUTEeu518O4MRMQJA" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H1FAUOUTEeu518O4MRMQJA" name="agregarMemento" specification="_H0oUYOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H1FAUeUTEeu518O4MRMQJA" name="m" type="_Hh-eIOUTEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>estados.add(m);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H1J40OUTEeu518O4MRMQJA" name="getMemento" specification="_HhmqsOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H1J40eUTEeu518O4MRMQJA" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H1J40uUTEeu518O4MRMQJA" type="_Hh-eIOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>return estados.get(i);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HhmqsOUTEeu518O4MRMQJA" name="getMemento" method="_H1J40OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_HhnRwOUTEeu518O4MRMQJA" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H0pigOUTEeu518O4MRMQJA" type="_Hh-eIOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_H0oUYOUTEeu518O4MRMQJA" name="agregarMemento" method="_H1FAUOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H0oUYeUTEeu518O4MRMQJA" name="m" type="_Hh-eIOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Hh6MsOUTEeu518O4MRMQJA" name="Main">
+        <ownedComment xmi:id="_H1U38eUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H1LuAOUTEeu518O4MRMQJA" name="main" specification="_Hh8B4OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H1LuAeUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H1LuAuUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>CareTaker careTaker = new CareTaker();&#xD;
+     Persona p =new Persona();&#xD;
+     p.setNombre(&quot;juan&quot;);&#xD;
+     p.setNombre(&quot;Carlos&quot;);&#xD;
+     careTaker.agregarMemento(p.guardarEnMemento());&#xD;
+     &#xD;
+     p.setNombre(&quot;Felipe&quot;);&#xD;
+     careTaker.agregarMemento(p.guardarEnMemento());&#xD;
+     &#xD;
+     p.setNombre(&quot;Diego&quot;);&#xD;
+     careTaker.agregarMemento(p.guardarEnMemento());&#xD;
+     &#xD;
+     Memento m = careTaker.getMemento(0);&#xD;
+     Memento m2 = careTaker.getMemento(1);&#xD;
+     &#xD;
+     System.out.println(m.getEstadoGuardado());&#xD;
+     System.out.println(m2.getEstadoGuardado());&#xD;
+     &#xD;
+     &#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Hh8B4OUTEeu518O4MRMQJA" name="main" isStatic="true" method="_H1LuAOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_Hh8B4eUTEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Hh9QAOUTEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Hh-eIOUTEeu518O4MRMQJA" name="Memento">
+        <ownedComment xmi:id="_H1VfAOUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_H06BMOUTEeu518O4MRMQJA" name="estado" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H1R0oOUTEeu518O4MRMQJA" name="Memento" specification="_HiATUOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H1SbsOUTEeu518O4MRMQJA" name="estado">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H1SbseUTEeu518O4MRMQJA" type="_Hh-eIOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.estado = estado;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H1TCwOUTEeu518O4MRMQJA" name="getEstadoGuardado" specification="_HiDWoOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H1TCweUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return estado;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HiATUOUTEeu518O4MRMQJA" name="Memento" method="_H1R0oOUTEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_HiCIgOUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_HiCIgeUTEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_HiBhcOUTEeu518O4MRMQJA" name="estado">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_HiCvkOUTEeu518O4MRMQJA" type="_Hh-eIOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HiDWoOUTEeu518O4MRMQJA" name="getEstadoGuardado" method="_H1TCwOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_HiD9sOUTEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HiFL0OUTEeu518O4MRMQJA" name="Persona">
+        <ownedComment xmi:id="_H1VfAeUTEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_H072YOUTEeu518O4MRMQJA" name="nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H1Tp0OUTEeu518O4MRMQJA" name="guardarEnMemento" specification="_HiHBAOUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H1Tp0eUTEeu518O4MRMQJA" type="_Hh-eIOUTEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>System.out.println(&quot;Guardando memento&quot;);&#xD;
+     return new Memento(nombre);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H1Tp0uUTEeu518O4MRMQJA" name="restaurarDeMemento" specification="_H0sl0eUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H1Tp0-UTEeu518O4MRMQJA" name="m" type="_Hh-eIOUTEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>nombre = m.getEstadoGuardado();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_HiHBAOUTEeu518O4MRMQJA" name="guardarEnMemento" method="_H1Tp0OUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H0sl0OUTEeu518O4MRMQJA" type="_Hh-eIOUTEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_H0sl0eUTEeu518O4MRMQJA" name="restaurarDeMemento" method="_H1Tp0uUTEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_H0tM4OUTEeu518O4MRMQJA" name="m" type="_Hh-eIOUTEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_H1czwOUTEeu518O4MRMQJA" name="" memberEnd="_H1czweUTEeu518O4MRMQJA _H0yFYOUTEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_H1czweUTEeu518O4MRMQJA" name="" type="_Hheu4OUTEeu518O4MRMQJA" association="_H1czwOUTEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_HO5KEOUTEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_HPF-YOUTEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_HPV2AOUTEeu518O4MRMQJA" base_Package="_HCfs0OUTEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_H0lREOUTEeu518O4MRMQJA" base_Element="_H0i00OUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Generics xmi:id="_H01vwOUTEeu518O4MRMQJA" genericsValue="Memento" base_Element="_H0yFYOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H04MAOUTEeu518O4MRMQJA" base_Element="_H0yFYOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H07PUOUTEeu518O4MRMQJA" base_Element="_H06BMOUTEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_H1nL0OUTEeu518O4MRMQJA" base_Element="_H1czwOUTEeu518O4MRMQJA"/>
+</xmi:XMI>

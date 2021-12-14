@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_rHPi4OUSEeu518O4MRMQJA">
+  <modelElement href="PatronesComportamentales.uml#_q5wggOUSEeu518O4MRMQJA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_C80Q4OUTEeu518O4MRMQJA" name="NewClass1">
+    <modelElement href="PatronesComportamentales.uml#_C8fgwOUTEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_C80Q4eUTEeu518O4MRMQJA" position="252.0,99.0" size="71.0,109.0"/>
+    <visibility xmi:id="_C80Q4uUTEeu518O4MRMQJA" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
